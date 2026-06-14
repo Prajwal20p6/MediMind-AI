@@ -48,7 +48,7 @@ Here is a preview of the MediMind AI interface:
 
 | Dashboard & Interface | Medical Imaging & Heatmaps |
 |:---:|:---:|
-| ![Dashboard](screenshots/Screenshot%202026-06-14%20130612.png) | ![Imaging](screenshots/Screenshot%202026-06-14%20131632.png) |
+| ![Dashboard](screenshots/Screenshot%202026-06-14%20131632.png) | ![Imaging](screenshots/Screenshot%202026-06-14%20130612.png) |
 
 | Document Intelligence & Comparison | Chat & Symptom Assessment |
 |:---:|:---:|
