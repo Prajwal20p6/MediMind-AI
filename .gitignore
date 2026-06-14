@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+db.json
+static/output/
+test_assets/

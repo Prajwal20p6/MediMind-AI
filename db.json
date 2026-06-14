@@ -1,0 +1,2188 @@
+{
+  "users": {
+    "audit@medimind.com": {
+      "name": "Auditor",
+      "password": "d519397a4e89a7a66d28a266ed00a679bdee93fddec9ebba7d01ff27c39c1a99",
+      "created_at": "2026-06-12T11:47:25.467578",
+      "reports_data": {},
+      "history": {
+        "chats": [
+          {
+            "timestamp": "2026-06-12T11:49:08.172687",
+            "mode": "educational",
+            "user_message": "What is hypertension?",
+            "ai_response": "**Hypertension: Understanding the Condition**\n=====================================================\n\n**Definition**\n---------------\n\nHypertension, also known as high blood pressure, is a medical condition characterized by persistently elevated blood pressure in the arteries. It is a common condition that can lead to serious health complications if left untreated or poorly managed.\n\n**Causes and Risk Factors**\n---------------------------\n\nWhile the exact cause of hypertension is often unknown, several factors can contribute to its development, including:\n\n* Genetics\n* Age (risk increases with age)\n* Family history\n* Obesity\n* Physical inactivity\n* Smoking\n* Excessive sodium intake\n* Stress\n* Certain medical conditions, such as kidney disease or sleep apnea\n\n**Symptoms**\n------------\n\nIn many cases, hypertension is asymptomatic, meaning it may not cause noticeable symptoms. However, some people may experience:\n\n* Headaches\n* Dizziness or lightheadedness\n* Nosebleeds\n* Shortness of breath\n* Chest pain or discomfort\n\n**Complications**\n----------------\n\nUntreated or poorly managed hypertension can lead to serious complications, including:\n\n* Heart disease and heart failure\n* Stroke and transient ischemic attack (TIA)\n* Kidney disease and kidney failure\n* Vision loss and blindness\n* Peripheral artery disease\n\n**Diagnosis and Treatment**\n---------------------------\n\nHypertension is typically diagnosed through a combination of:\n\n* Blood pressure measurements\n* Medical history and physical examination\n* Laboratory tests, such as blood work and urinalysis\n\nTreatment for hypertension usually involves a combination of lifestyle modifications and medications, including:\n\n* Dietary changes (e.g., reducing sodium intake)\n* Regular exercise and physical activity\n* Stress management techniques (e.g., meditation, yoga)\n* Medications, such as diuretics, beta blockers, or ACE inhibitors\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect you or someone you know has hypertension, consult a qualified healthcare professional for proper diagnosis and treatment.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T11:55:56.970991",
+            "mode": "educational",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Overview**\n=====================\n\nDiabetes is a group of metabolic disorders characterized by high blood sugar levels. It occurs when the body either cannot produce enough insulin (a hormone produced by the pancreas that regulates blood sugar levels) or cannot effectively use the insulin it produces.\n\n**Types of Diabetes**\n----------------------\n\nThere are several types of diabetes:\n\n### 1. **Type 1 Diabetes**\n\n*   An autoimmune disease where the body's immune system attacks and destroys the cells in the pancreas that produce insulin.\n*   Typically develops in childhood or adolescence.\n*   Requires insulin therapy to control blood sugar levels.\n\n### 2. **Type 2 Diabetes**\n\n*   The most common form of diabetes, accounting for about 90% of cases.\n*   Characterized by insulin resistance, where the body's cells become less responsive to insulin.\n*   May also be caused by a combination of genetic and lifestyle factors, such as obesity and physical inactivity.\n\n### 3. **Gestational Diabetes**\n\n*   Develops during pregnancy, usually in the second or third trimester.\n*   Caused by hormonal changes and insulin resistance.\n*   Typically resolves after pregnancy, but women who have had gestational diabetes are at increased risk of developing type 2 diabetes later in life.\n\n### 4. **LADA (Latent Autoimmune Diabetes in Adults)**\n\n*   A form of type 1 diabetes that develops in adults.\n*   Similar to type 1 diabetes, but may take longer to develop.\n\n### 5. **MODY (Maturity-Onset Diabetes of the Young)**\n\n*   A rare form of diabetes caused by genetic mutations.\n*   Typically develops in young adulthood.\n\n**Symptoms of Diabetes**\n-------------------------\n\nDiabetes can cause a range of symptoms, including:\n\n*   Increased thirst and urination\n*   Fatigue\n*   Blurred vision\n*   Slow healing of cuts and wounds\n*   Tingling or numbness in the hands and feet\n\n**Complications of Diabetes**\n-----------------------------\n\nIf left untreated or poorly managed, diabetes can lead to serious complications, including:\n\n*   Heart disease and stroke\n*   Kidney damage (nephropathy)\n*   Nerve damage (neuropathy)\n*   Blindness (retinopathy)\n*   Foot damage (ulcers and amputations)\n\n**Treatment and Management**\n---------------------------\n\nDiabetes is typically managed through a combination of lifestyle changes and medication. Treatment may include:\n\n*   Insulin therapy\n*   Oral medications\n*   Diet and exercise plans\n*   Regular blood sugar monitoring\n*   Regular check-ups with a healthcare provider\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you have concerns about diabetes or any other medical condition, please consult a qualified healthcare provider for personalized guidance and treatment.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T11:56:20.934032",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T11:56:46.495227",
+            "mode": "symptom_interview",
+            "user_message": "Analyze this report",
+            "ai_response": "**Question 2 of 6:** What is your gender?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T11:57:35.204816",
+            "mode": "symptom_interview",
+            "user_message": "Analyze this report",
+            "ai_response": "**Question 3 of 6:** How long have you had these symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:01:23.834342",
+            "mode": "symptom_interview",
+            "user_message": "Analyze this report",
+            "ai_response": "**Question 4 of 6:** On a scale of 1-10, how severe are your symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:02:00.655909",
+            "mode": "symptom_interview",
+            "user_message": "cancel",
+            "ai_response": "**Question 5 of 6:** Do you have any existing medical conditions?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:02:34.112191",
+            "mode": "symptom_interview",
+            "user_message": "None",
+            "ai_response": "**Question 6 of 6:** Are you experiencing any other related symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:03:04.296819",
+            "mode": "symptom_interview_complete",
+            "user_message": "No other symptoms",
+            "ai_response": "**Symptom Analysis Report**\n==========================\n\n**Disclaimer:** MediMind AI is not a substitute for professional medical advice. This assessment is for informational purposes only and should not be used to diagnose or treat any medical condition.\n\n**Patient Information**\n--------------------\n\n* **Age:** Not provided\n* **Gender:** Not provided\n* **Duration:** Not provided\n* **Severity Score:** 6/10 (based on the reported symptoms)\n\n**Assessment**\n-------------\n\n### 1. Possible Conditions & Triage Diagnosis\n\nBased on the reported symptoms of fever and cough, the following conditions are possible:\n\n* **Common Cold**: A viral infection causing mild to moderate symptoms.\n* **Influenza (Flu)**: A viral infection causing fever, cough, and other respiratory symptoms.\n* **Pneumonia**: A bacterial or viral infection causing fever, cough, and difficulty breathing.\n\n### 2. Patient Risk Category\n\nBased on the reported symptoms, the patient's risk category is:\n\n* **Moderate**: The patient has a fever and cough, which may indicate a viral or bacterial infection. However, the severity score is relatively low, indicating that the condition may not be severe.\n\n### 3. Actionable At-Home Recommendations\n\nTo manage symptoms and prevent complications:\n\n* **Stay hydrated**: Drink plenty of fluids, such as water, clear broths, or electrolyte-rich beverages.\n* **Rest**: Get plenty of rest to help the body recover from the infection.\n* **Use a humidifier**: Add moisture to the air to relieve congestion and cough.\n* **Use over-the-counter medications**: Consider taking over-the-counter medications, such as acetaminophen or ibuprofen, to relieve fever and pain.\n\n### 4. Red Flags / Symptoms requiring Emergency Care\n\nThe following symptoms require immediate medical attention:\n\n* **Difficulty breathing**: If the patient experiences difficulty breathing, chest pain, or severe coughing.\n* **Severe headache**: If the patient experiences a severe headache, confusion, or disorientation.\n* **High fever**: If the patient's fever exceeds 103\u00b0F (39.4\u00b0C) or lasts for more than 3 days.\n\n### 5. Appropriate Specialization Referral\n\nBased on the reported symptoms, a referral to a:\n\n* **Primary Care Physician (PCP)**: For further evaluation and management of the symptoms.\n* **Pulmonologist**: If the patient has a history of respiratory conditions or if the symptoms persist or worsen.\n\n**Next Steps**\n--------------\n\nIf the patient's symptoms worsen or if they experience any of the red flag symptoms, they should seek immediate medical attention. Otherwise, they can follow the actionable at-home recommendations and schedule a follow-up appointment with their PCP.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:03:32.180289",
+            "mode": "educational",
+            "user_message": "Analyze this report",
+            "ai_response": "I see you're asking to analyze a report, but you haven't uploaded one yet. Please go to the **Medical Reports** tab to upload and process your medical files first.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          }
+        ],
+        "reports": [],
+        "prescriptions": [],
+        "imaging": []
+      }
+    },
+    "test_auditor@medimind.com": {
+      "name": "Test Auditor",
+      "password": "d519397a4e89a7a66d28a266ed00a679bdee93fddec9ebba7d01ff27c39c1a99",
+      "created_at": "2026-06-12T12:05:37.499536",
+      "reports_data": {
+        "report_jan.pdf": "MediMind Clinical Lab Report\nPatient: Auditor\nDate: 2026-01-10\nGlucose: 125 mg/dL\nCholesterol: 220 mg/dL\nHemoglobin: 12.8 g/dL\nCreatinine: 1.1 mg/dL\nALT: 48 U/L",
+        "report_jun.pdf": "MediMind Clinical Lab Report\nPatient: Auditor\nDate: 2026-06-10\nGlucose: 110 mg/dL\nCholesterol: 195 mg/dL\nHemoglobin: 13.5 g/dL\nCreatinine: 0.9 mg/dL\nALT: 32 U/L",
+        "Hypertension_Report.pdf": "Hypertension Report\nPatient Name: Arun Nair\nAge: 58\nGender: Male\nDate: 10-06-2026\nBlood Pressure Report\nBlood Pressure: 165/102 mmHg\nHeart Rate: 94 bpm\nBMI: 31.4\nTotal Cholesterol: 245 mg/dL\nLDL: 165 mg/dL\nHDL: 34 mg/dL\nObservations:\nPatient reports headaches, dizziness, occasional chest discomfort, and high stress levels.",
+        "Anemia_Report.pdf": "Anemia Report\nPatient Name: Priya Sharma\nAge: 24\nGender: Female\nDate: 10-06-2026\nLaboratory Results\nHemoglobin: 8.9 g/dL\nRBC Count: 3.5 million/uL\nHematocrit: 29%\nSerum Iron: 35 mcg/dL\nObservations:\nPatient complains of fatigue, weakness, dizziness, pale skin, and shortness of breath during\nphysical activity.",
+        "Diabetes_Report.pdf": "Diabetes Report\nPatient Name: Rajesh Kumar\nAge: 52\nGender: Male\nDate: 10-06-2026\nLaboratory Results\nFasting Blood Sugar: 148 mg/dL\nHbA1c: 7.8%\nTotal Cholesterol: 228 mg/dL\nLDL Cholesterol: 145 mg/dL\nHDL Cholesterol: 38 mg/dL\nTriglycerides: 220 mg/dL\nBlood Pressure: 148/92 mmHg\nObservations:\nPatient reports frequent urination, excessive thirst, fatigue, and blurred vision."
+      },
+      "history": {
+        "chats": [
+          {
+            "timestamp": "2026-06-12T12:05:38.360737",
+            "mode": "educational",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Overview**\n=====================\n\nDiabetes is a group of metabolic disorders characterized by high blood sugar levels. It occurs when the body either cannot produce enough insulin (a hormone produced by the pancreas that regulates blood sugar levels) or cannot effectively use the insulin it produces.\n\n**Types of Diabetes**\n----------------------\n\nThere are several types of diabetes:\n\n### 1. **Type 1 Diabetes**\n\n*   An autoimmune disease where the body's immune system attacks and destroys the cells in the pancreas that produce insulin.\n*   Typically develops in childhood or adolescence.\n*   Requires insulin therapy to control blood sugar levels.\n\n### 2. **Type 2 Diabetes**\n\n*   The most common form of diabetes, accounting for 90% of cases.\n*   Characterized by insulin resistance, where the body's cells become less responsive to insulin.\n*   Often develops in adulthood, especially in people who are overweight or inactive.\n\n### 3. **Gestational Diabetes**\n\n*   A type of diabetes that develops during pregnancy, usually in the second or third trimester.\n*   Caused by hormonal changes and insulin resistance.\n*   Typically resolves after pregnancy, but women who have had gestational diabetes are at increased risk of developing type 2 diabetes later in life.\n\n### 4. **LADA (Latent Autoimmune Diabetes in Adults)**\n\n*   A form of type 1 diabetes that develops in adults.\n*   Similar to type 1 diabetes, but progresses more slowly.\n\n**Symptoms of Diabetes**\n------------------------\n\nDiabetes can cause a range of symptoms, including:\n\n*   Increased thirst and urination\n*   Fatigue\n*   Blurred vision\n*   Slow healing of cuts and wounds\n*   Tingling or numbness in the hands and feet\n\n**Complications of Diabetes**\n-----------------------------\n\nIf left untreated or poorly managed, diabetes can lead to serious complications, including:\n\n*   Heart disease and stroke\n*   Kidney damage (nephropathy)\n*   Nerve damage (neuropathy)\n*   Blindness (retinopathy)\n*   Foot damage and amputation\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect you or a loved one may have diabetes, consult a qualified healthcare professional for proper diagnosis and treatment.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:05:38.386723",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:07:12.826541",
+            "mode": "symptom_interview",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Question 2 of 6:** What is your gender?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:07:12.830421",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "**Question 3 of 6:** How long have you had these symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:08:00.524872",
+            "mode": "symptom_interview",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Question 4 of 6:** On a scale of 1-10, how severe are your symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:08:00.530684",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "**Question 5 of 6:** Do you have any existing medical conditions?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:09:16.827834",
+            "mode": "symptom_interview",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Question 6 of 6:** Are you experiencing any other related symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:09:17.945308",
+            "mode": "symptom_interview_complete",
+            "user_message": "I have fever and cough",
+            "ai_response": "**Disclaimer:** I am MediMind AI, an intelligent healthcare companion. I provide accurate medical information and assistance. However, I am not a substitute for professional medical advice. Please consult a qualified healthcare professional for personalized diagnosis and treatment.\n\n**Clinical Assessment:**\n\n### 1. Possible Conditions & Triage Diagnosis\n\nBased on the reported symptoms of fever and cough, the following possible conditions are considered:\n\n* **Common Cold**: A viral infection characterized by mild to moderate symptoms, including fever and cough.\n* **Influenza (Flu)**: A contagious respiratory illness caused by the influenza virus, which can lead to fever, cough, and other symptoms.\n* **Pneumonia**: A lung infection that can cause fever, cough, and difficulty breathing.\n* **Bronchitis**: An inflammation of the bronchial tubes, which can lead to cough and fever.\n\n### 2. Patient Risk Category\n\nBased on the reported symptoms and severity score, the patient's risk category is:\n\n* **Moderate Risk**: The patient has a moderate risk of developing complications from their symptoms, such as pneumonia or bronchitis.\n\n### 3. Actionable At-Home Recommendations\n\nTo manage symptoms and prevent complications, the following at-home recommendations are provided:\n\n* **Stay hydrated**: Drink plenty of fluids, such as water, clear broths, or electrolyte-rich beverages.\n* **Rest**: Get plenty of rest to help the body recover from the illness.\n* **Use a humidifier**: Add moisture to the air to relieve congestion and cough.\n* **Use over-the-counter medications**: Consider taking over-the-counter medications, such as acetaminophen or ibuprofen, to relieve fever and cough.\n* **Practice good hygiene**: Wash hands frequently, avoid close contact with others, and avoid sharing utensils or personal items.\n\n### 4. Red Flags / Symptoms requiring Emergency Care\n\nThe following symptoms require immediate medical attention:\n\n* **Difficulty breathing**: If the patient experiences difficulty breathing, chest pain, or severe coughing.\n* **Severe headache**: If the patient experiences a severe headache, confusion, or disorientation.\n* **High fever**: If the patient's fever exceeds 103\u00b0F (39.4\u00b0C) or lasts for more than 3 days.\n* **Chest pain**: If the patient experiences chest pain or pressure.\n\n### 5. Appropriate Specialization Referral\n\nBased on the reported symptoms, a referral to the following specialist is recommended:\n\n* **Primary Care Physician (PCP)**: A PCP can provide a comprehensive evaluation, diagnosis, and treatment plan for the patient's symptoms.\n* **Pulmonologist**: A pulmonologist can provide specialized care for respiratory conditions, such as pneumonia or bronchitis.\n\n**Next Steps:**\n\n* Schedule an appointment with a PCP or pulmonologist for further evaluation and treatment.\n* Follow the at-home recommendations to manage symptoms and prevent complications.\n* Seek emergency care if any red flag symptoms are present.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:12:13.898107",
+            "mode": "report_rag",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Definition**\n=======================\n\nDiabetes is a chronic medical condition characterized by high levels of glucose (sugar) in the blood. It occurs when the body either cannot produce enough insulin (a hormone that regulates blood sugar levels) or cannot effectively use the insulin it produces.\n\n**Supporting Evidence**\n----------------------\n\nAlthough the provided reports do not explicitly state the diagnosis of diabetes, we can analyze the glucose levels to infer potential issues.\n\n* In the January report, the glucose level is 125 mg/dL, which is slightly above the normal range (typically considered to be 70-99 mg/dL).\n* In the June report, the glucose level has decreased to 110 mg/dL, which is still within the normal range.\n\nHowever, these values alone do not confirm a diagnosis of diabetes. A definitive diagnosis would require further testing, such as a fasting plasma glucose test or an oral glucose tolerance test.\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect you or someone else has diabetes, consult a qualified healthcare professional for an accurate diagnosis and treatment plan.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:12:13.907108",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:13:48.539006",
+            "mode": "report_rag",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Definition**\n=======================\n\nDiabetes is a chronic medical condition characterized by high levels of glucose (sugar) in the blood. It occurs when the body either cannot produce enough insulin (a hormone that regulates blood sugar levels) or cannot effectively use the insulin it produces.\n\n**Supporting Evidence**\n----------------------\n\nWhile the provided reports do not explicitly mention diabetes, we can infer the patient's glucose levels over time. \n\n*   In the January report, the glucose level is 125 mg/dL, which is higher than the normal range (typically considered to be 70-100 mg/dL).\n*   In the June report, the glucose level has decreased to 110 mg/dL, which is still slightly elevated but closer to the normal range.\n\nThese fluctuations in glucose levels may indicate an underlying issue with glucose regulation, potentially related to diabetes. However, a definitive diagnosis of diabetes would require further testing and evaluation by a healthcare professional.\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect you or someone else may have diabetes, please consult a qualified healthcare professional for proper evaluation and diagnosis.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:13:48.550125",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T11:52:19.814001",
+            "mode": "report_rag",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Definition**\n=======================\n\nDiabetes is a chronic medical condition characterized by high levels of glucose (sugar) in the blood. It occurs when the body either cannot produce enough insulin (a hormone that regulates blood sugar levels) or cannot effectively use the insulin it produces.\n\n**Supporting Evidence**\n----------------------\n\nWhile the uploaded reports do not explicitly mention diabetes, we can analyze the glucose levels to understand the patient's condition.\n\n*   In the January report, the glucose level is 125 mg/dL, which is higher than the normal range (typically considered to be 70-100 mg/dL).\n*   In the June report, the glucose level has decreased to 110 mg/dL, which is still slightly elevated but closer to the normal range.\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect that you or someone else has diabetes, consult a qualified healthcare professional for proper diagnosis and treatment.\n\n**Recommendation**\n------------------\n\nBased on the provided reports, it is recommended that the patient's glucose levels be monitored regularly to assess any changes or potential development of diabetes. A healthcare professional should be consulted to interpret these results and provide personalized guidance.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T11:52:19.824581",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:12:29.970457",
+            "mode": "report_rag",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Definition**\n=======================\n\nDiabetes is a chronic medical condition characterized by high blood sugar levels, which can lead to a variety of complications if left untreated or poorly managed.\n\n**Supporting Evidence**\n----------------------\n\nWhile the provided lab reports do not explicitly mention diabetes, we can infer that the patient's glucose levels are within a relatively normal range.\n\n- **Report Jan 2026:** Glucose: 125 mg/dL (normal range: 70-140 mg/dL)\n- **Report Jun 2026:** Glucose: 110 mg/dL (normal range: 70-140 mg/dL)\n\nHowever, these values are not indicative of diabetes, which is typically diagnosed when fasting glucose levels exceed 126 mg/dL or hemoglobin A1c (HbA1c) levels exceed 6.5%.\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect you or someone else has diabetes, consult a qualified healthcare professional for proper diagnosis and treatment.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:12:30.002879",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:21:19.078020",
+            "mode": "symptom_interview",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Question 2 of 6:** What is your gender?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:21:19.099524",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "**Question 3 of 6:** How long have you had these symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:22:19.919511",
+            "mode": "symptom_interview",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Question 4 of 6:** On a scale of 1-10, how severe are your symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:22:19.945186",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "**Question 5 of 6:** Do you have any existing medical conditions?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:41:31.359494",
+            "mode": "symptom_interview",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Question 6 of 6:** Are you experiencing any other related symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:41:33.210121",
+            "mode": "symptom_interview_complete",
+            "user_message": "I have fever and cough",
+            "ai_response": "**Disclaimer:** I am MediMind AI, an intelligent healthcare companion. I provide accurate medical information and assistance. However, I am not a substitute for professional medical advice. Please consult a qualified healthcare professional for personalized diagnosis and treatment.\n\n**Clinical Assessment:**\n\n### 1. Possible Conditions & Triage Diagnosis\n\nBased on the symptoms reported, the possible conditions and triage diagnosis are:\n\n* **Common Cold**: Fever and cough are common symptoms of a viral upper respiratory tract infection, also known as a common cold.\n* **Pneumonia**: Fever and cough can also be symptoms of pneumonia, a bacterial or viral infection of the lungs.\n* **Influenza (Flu)**: Fever and cough are also common symptoms of influenza, a viral infection that affects the respiratory system.\n\n### 2. Patient Risk Category\n\nBased on the severity score and other factors, the patient risk category is:\n\n* **Moderate**: The patient has a moderate risk of complications due to the presence of fever and cough. However, the severity score is relatively low, indicating that the symptoms are not severe.\n\n### 3. Actionable At-Home Recommendations\n\nTo manage symptoms and prevent complications, the patient can try the following at-home recommendations:\n\n* **Stay hydrated**: Drink plenty of fluids, such as water, clear broths, or electrolyte-rich beverages like sports drinks.\n* **Rest**: Get plenty of rest to help the body recover from the infection.\n* **Use a humidifier**: Add moisture to the air with a humidifier to relieve congestion and cough.\n* **Use over-the-counter medications**: Over-the-counter medications like acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) can help relieve fever and body aches.\n* **Practice good hygiene**: Wash hands frequently with soap and water, and avoid close contact with others to prevent the spread of infection.\n\n### 4. Red Flags / Symptoms requiring Emergency Care\n\nThe following symptoms require immediate medical attention:\n\n* **Difficulty breathing**: If the patient experiences difficulty breathing, chest pain, or severe coughing.\n* **Severe headache**: If the patient experiences a severe headache, confusion, or disorientation.\n* **Fever above 103\u00b0F (39.4\u00b0C)**: If the patient's fever exceeds 103\u00b0F (39.4\u00b0C) or lasts for more than 3 days.\n* **Coughing up blood**: If the patient coughs up blood or rust-colored mucus.\n\n### 5. Appropriate Specialization Referral\n\nBased on the symptoms and triage diagnosis, the patient should consult a:\n\n* **Primary Care Physician (PCP)**: For further evaluation and management of the symptoms.\n* **Pulmonologist**: If the patient is diagnosed with pneumonia or another respiratory condition.\n\n**Please note that this assessment is not a substitute for professional medical advice. Consult a qualified healthcare professional for personalized diagnosis and treatment.**",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:45:29.184697",
+            "mode": "report_rag",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Definition**\n=======================\n\nDiabetes is a chronic medical condition characterized by high levels of glucose (sugar) in the blood. It occurs when the body either cannot produce enough insulin (a hormone that regulates blood sugar levels) or cannot effectively use the insulin it produces.\n\n**Supporting Evidence**\n----------------------\n\nWhile the provided reports do not explicitly mention diabetes, we can observe the glucose levels of the patient:\n\n* In the report from January 2026, the glucose level is 125 mg/dL, which is higher than the normal range (typically considered to be less than 100 mg/dL).\n* In the report from June 2026, the glucose level has decreased to 110 mg/dL, which is still slightly elevated.\n\nHowever, these values alone do not confirm a diagnosis of diabetes. A definitive diagnosis would require additional testing, such as a fasting plasma glucose test or an oral glucose tolerance test.\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect that you or someone else may have diabetes, please consult a qualified healthcare professional for a proper evaluation and diagnosis.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:45:29.205673",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:48:52.421289",
+            "mode": "symptom_interview",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Question 2 of 6:** What is your gender?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:48:52.465912",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "**Question 3 of 6:** How long have you had these symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:54:26.989966",
+            "mode": "symptom_interview",
+            "user_message": "what is alzimer",
+            "ai_response": "**Question 4 of 6:** On a scale of 1-10, how severe are your symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:54:48.362269",
+            "mode": "symptom_interview",
+            "user_message": "what is diabetes",
+            "ai_response": "**Question 5 of 6:** Do you have any existing medical conditions?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:55:05.663574",
+            "mode": "symptom_interview",
+            "user_message": "What is diabetes",
+            "ai_response": "**Question 6 of 6:** Are you experiencing any other related symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:55:12.873664",
+            "mode": "symptom_interview_complete",
+            "user_message": "no",
+            "ai_response": "**Disclaimer:** I am MediMind AI, an intelligent healthcare companion. I provide accurate medical information and assistance. However, I am not a substitute for professional medical advice. Please consult a qualified healthcare professional for personalized diagnosis and treatment.\n\n**Clinical Assessment:**\n\n### 1. Possible Conditions & Triage Diagnosis\n\nBased on the symptoms reported, the possible conditions and triage diagnosis are:\n\n* **Common Cold**: Fever and cough are common symptoms of a viral upper respiratory tract infection, also known as a common cold.\n* **Pneumonia**: Fever and cough can also be symptoms of pneumonia, a bacterial infection of the lungs.\n* **Influenza (Flu)**: Fever and cough are also symptoms of influenza, a viral infection that affects the respiratory system.\n\n### 2. Patient Risk Category\n\nBased on the symptoms reported, the patient risk category is:\n\n* **Moderate**: The patient has fever and cough, which can be symptoms of a viral or bacterial infection. However, the patient does not have any underlying medical conditions or severe symptoms that would indicate a high or critical risk category.\n\n### 3. Actionable At-Home Recommendations\n\nTo manage symptoms and prevent complications, the patient can try the following at-home recommendations:\n\n* **Stay hydrated**: Drink plenty of fluids, such as water, clear broths, or electrolyte-rich beverages like sports drinks.\n* **Rest**: Get plenty of rest to help the body recover from the infection.\n* **Use a humidifier**: Add moisture to the air with a humidifier to relieve cough and congestion.\n* **Use over-the-counter medications**: Over-the-counter medications like acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) can help relieve fever and body aches.\n\n### 4. Red Flags / Symptoms requiring Emergency Care\n\nThe following symptoms require emergency care:\n\n* **Difficulty breathing**: If the patient experiences difficulty breathing, chest pain, or severe coughing.\n* **Severe headache**: If the patient experiences a severe headache, confusion, or stiff neck.\n* **Fever over 103\u00b0F (39.4\u00b0C)**: If the patient's fever exceeds 103\u00b0F (39.4\u00b0C) or lasts for more than 3 days.\n* **Coughing up blood**: If the patient coughs up blood or rust-colored mucus.\n\n### 5. Appropriate Specialization Referral\n\nBased on the symptoms reported, the patient should consult a:\n\n* **Primary Care Physician (PCP)**: The patient's PCP can evaluate the symptoms, provide a diagnosis, and prescribe treatment.\n* **Pulmonologist**: If the patient is diagnosed with pneumonia or another respiratory condition, a pulmonologist may be consulted for further evaluation and treatment.\n\n**Additional Information:**\n\n* **Diabetes**: Diabetes is a chronic condition characterized by high blood sugar levels. It is not related to the symptoms reported.\n* **Alzheimer's Disease**: Alzheimer's disease is a progressive neurological disorder that affects memory, thinking, and behavior. It is not related to the symptoms reported.\n* **Severity Score**: The severity score of 0/10 indicates that the patient's symptoms are mild to moderate.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:59:32.423683",
+            "mode": "report_rag",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Definition**\n=======================\n\nDiabetes is a chronic medical condition characterized by high levels of glucose (sugar) in the blood. It occurs when the body either cannot produce enough insulin (a hormone that regulates blood sugar levels) or cannot effectively use the insulin it produces.\n\n**Supporting Evidence**\n----------------------\n\nAlthough the reports do not explicitly mention diabetes, we can infer the patient's glucose levels:\n\n* **Report Jan 2026**: Glucose: 125 mg/dL (normal range: 70-99 mg/dL)\n* **Report Jun 2026**: Glucose: 110 mg/dL (normal range: 70-99 mg/dL)\n\nThese values are within the normal range, indicating that the patient does not have diabetes at the time of the reports. However, it is essential to note that a single measurement is not sufficient to diagnose diabetes, and further testing may be required.\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect you or someone else has diabetes, consult a qualified healthcare professional for proper diagnosis and treatment.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T12:59:32.897772",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T13:01:37.613928",
+            "mode": "report_rag",
+            "user_message": "hi",
+            "ai_response": "**Response**\nHello, I'm MediMind AI, your clinical RAG assistant. I'm here to help answer your questions based on the provided reports.\n\nHowever, it seems like you haven't asked a specific question yet. Please go ahead and ask your question, and I'll do my best to provide a clear and accurate response.\n\n**Supporting Evidence**\nNone\n\n**Disclaimer**\nI'm not a substitute for professional medical advice. Please consult a qualified healthcare professional for personalized guidance and treatment.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T13:01:49.200935",
+            "mode": "report_rag",
+            "user_message": "what is diabites",
+            "ai_response": "**Diabetes**\n\nDiabetes is a medical condition characterized by high blood sugar levels. Based on the provided lab reports, it appears that the patient's glucose levels are within a relatively normal range.\n\n**Report 1 (Jan 10, 2026)**\n- Glucose: 125 mg/dL (normal range: 70-140 mg/dL)\n\n**Report 2 (Jun 10, 2026)**\n- Glucose: 110 mg/dL (normal range: 70-140 mg/dL)\n\n**Supporting Evidence**\nThe patient's glucose levels in both reports are within the normal range, indicating that diabetes is not a concern at this time.\n\n**Disclaimer**\nI am not a substitute for professional medical advice. If you have concerns about diabetes or any other medical condition, please consult a qualified healthcare professional.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T13:01:56.827494",
+            "mode": "symptom_interview",
+            "user_message": "i have mild fever",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T14:57:26.977075",
+            "mode": "report_rag",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Definition**\n=======================\n\nDiabetes is a chronic medical condition characterized by high blood sugar levels, which can lead to a variety of complications if left untreated or poorly managed.\n\n**Supporting Evidence**\n----------------------\n\nWhile the provided reports do not explicitly define diabetes, they do contain laboratory results that suggest the patient, Rajesh Kumar, may be experiencing symptoms and test results consistent with diabetes.\n\n*   **Fasting Blood Sugar**: 148 mg/dL (normal range: 70-99 mg/dL) - This value is higher than the normal range, indicating hyperglycemia (high blood sugar).\n*   **HbA1c**: 7.8% (normal range: 4-6%) - This value is higher than the normal range, indicating poor blood sugar control over the past 2-3 months.\n*   **Symptoms**: Frequent urination, excessive thirst, fatigue, and blurred vision - These symptoms are common in people with diabetes.\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect you or someone else has diabetes, consult a qualified healthcare professional for proper diagnosis and treatment.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-14T14:57:27.173338",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          }
+        ],
+        "reports": [
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-12T12:05:38.948212"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-12T12:05:38.964739"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-12T12:07:12.838401"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-12T12:07:12.839484"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-12T12:08:00.535671"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-12T12:08:00.539048"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-12T12:09:17.956363"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-12T12:09:17.960385"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-12T12:12:13.937077"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-12T12:12:13.939594"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-12T12:13:48.566111"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-12T12:13:48.567620"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-14T11:52:19.901025"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-14T11:52:19.904553"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-14T12:12:30.090619"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-14T12:12:30.104156"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-14T12:21:19.131524"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-14T12:21:19.137532"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-14T12:22:19.980496"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-14T12:22:19.990595"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-14T12:41:33.273018"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-14T12:41:33.281041"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-14T12:45:29.236132"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-14T12:45:29.242526"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-14T12:48:52.488688"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-14T12:48:52.492690"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-14T12:59:32.931564"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-14T12:59:32.936142"
+          },
+          {
+            "name": "Hypertension_Report.pdf",
+            "timestamp": "2026-06-14T13:02:33.315371"
+          },
+          {
+            "name": "Anemia_Report.pdf",
+            "timestamp": "2026-06-14T13:02:33.322619"
+          },
+          {
+            "name": "Diabetes_Report.pdf",
+            "timestamp": "2026-06-14T13:02:33.333454"
+          },
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-14T14:57:27.424490"
+          },
+          {
+            "name": "report_jun.pdf",
+            "timestamp": "2026-06-14T14:57:27.432064"
+          }
+        ],
+        "prescriptions": [
+          {
+            "timestamp": "2026-06-12T12:06:39.722575",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Bacterial infection",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Take as directed.",
+                  "side_effects": "Nausea, diarrhea, allergic reactions",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "08:00 AM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "02:00 PM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "08:00 PM",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260612_120623_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-12T12:07:40.813090",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Bacterial infection",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Take as directed.",
+                  "side_effects": "Nausea, diarrhea, allergic reactions",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "08:00 AM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "02:00 PM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "08:00 PM",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260612_120724_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-12T12:08:53.331496",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Unknown",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Unknown",
+                  "side_effects": "Unknown",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260612_120839_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-12T12:10:10.345431",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Bacterial infection",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Take as directed.",
+                  "side_effects": "Nausea, diarrhea, allergic reactions",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "08:00 AM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "02:00 PM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "08:00 PM",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260612_120958_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-12T12:12:32.886077",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Bacterial infection",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Take after meals, complete the full course.",
+                  "side_effects": "Nausea, diarrhea, allergic reactions",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "08:00 AM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "02:00 PM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "08:00 PM",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260612_121223_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-12T12:14:07.440171",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription parsed with fallback logic.",
+            "structured_data": {
+              "narrative": "Failed to parse structured JSON. Here is the general interpretation.",
+              "medicines": [
+                {
+                  "name": "Detected Medicine",
+                  "purpose": "General treatment",
+                  "dosage": "As prescribed",
+                  "frequency": "Daily",
+                  "duration": "7 days",
+                  "warnings": "Consult doctor if side effects occur",
+                  "side_effects": "Drowsiness",
+                  "alternatives": "Generic alternative",
+                  "schedule": [
+                    {
+                      "time": "09:00 AM",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 7,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9100",
+                      "pack_size": "10 tablets",
+                      "buy_link": "https://www.1mg.com"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9105",
+                      "pack_size": "10 tablets",
+                      "buy_link": "https://www.apollopharmacy.in"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260612_121358_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-14T11:53:28.890127",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Unknown",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Unknown",
+                  "side_effects": "Unknown",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Unknown",
+                      "cost": "Unknown",
+                      "pack_size": "Unknown",
+                      "buy_link": "Unknown"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_115317_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-14T12:13:46.549949",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted from a scan.",
+            "structured_data": {
+              "narrative": "Prescription extracted from a scan.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Not specified",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Not specified",
+                  "side_effects": "Not specified",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Not specified",
+                      "cost": "Not specified",
+                      "pack_size": "Not specified",
+                      "buy_link": "Not specified"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_121329_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-14T12:21:33.467237",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription text extracted: Amoxicillin 500mg 3 times a day for 5 days",
+            "structured_data": {
+              "narrative": "Prescription text extracted: Amoxicillin 500mg 3 times a day for 5 days",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Unknown",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Unknown",
+                  "side_effects": "Unknown",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 0,
+                  "purchase_options": []
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_122131_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-14T12:22:36.224281",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription details extracted from the text: Amoxicillin 500mg 3 times a day for 5 days.",
+            "structured_data": {
+              "narrative": "Prescription details extracted from the text: Amoxicillin 500mg 3 times a day for 5 days.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Not specified",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Not specified",
+                  "side_effects": "Not specified",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": "Not specified",
+                  "purchase_options": [
+                    {
+                      "store": "Not specified",
+                      "cost": "Not specified",
+                      "pack_size": "Not specified",
+                      "buy_link": "Not specified"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_122235_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-14T12:42:06.358831",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Unknown",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Unknown",
+                  "side_effects": "Unknown",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Unknown",
+                      "cost": "Unknown",
+                      "pack_size": "Unknown",
+                      "buy_link": "Unknown"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_124154_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-14T12:45:41.926741",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription summary: Amoxicillin 500mg to be taken 3 times a day for 5 days.",
+            "structured_data": {
+              "narrative": "Prescription summary: Amoxicillin 500mg to be taken 3 times a day for 5 days.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Not specified",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Not specified",
+                  "side_effects": "Not specified",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": "Not specified",
+                  "purchase_options": [
+                    {
+                      "store": "Not specified",
+                      "cost": "Not specified",
+                      "pack_size": "Not specified",
+                      "buy_link": "Not specified"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_124538_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-14T12:49:07.558386",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Not specified",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Not specified",
+                  "side_effects": "Not specified",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": "Not specified",
+                  "purchase_options": [
+                    {
+                      "store": "Not specified",
+                      "cost": "Not specified",
+                      "pack_size": "Not specified",
+                      "buy_link": "Not specified"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_124904_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-14T13:00:32.250374",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription text extracted: Amoxicillin 500mg 3 times a day for 5 days",
+            "structured_data": {
+              "narrative": "Prescription text extracted: Amoxicillin 500mg 3 times a day for 5 days",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Unknown",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Unknown",
+                  "side_effects": "Unknown",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Unknown",
+                      "cost": "Unknown",
+                      "pack_size": "Unknown",
+                      "buy_link": "Unknown"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_130013_prescription.png"
+          },
+          {
+            "timestamp": "2026-06-14T13:05:05.772829",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription text extracted: Amoxicillin 500mg 3 times a day for 5 days",
+            "structured_data": {
+              "narrative": "Prescription text extracted: Amoxicillin 500mg 3 times a day for 5 days",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": null,
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": null,
+                  "side_effects": null,
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "08:00 AM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "02:00 PM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "08:00 PM",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": null,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_130504_Screenshot 2026-06-11 142151.png"
+          },
+          {
+            "timestamp": "2026-06-14T14:59:18.284683",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Unknown",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Unknown",
+                  "side_effects": "Unknown",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Unknown",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_145853_prescription.png"
+          }
+        ],
+        "imaging": [
+          {
+            "timestamp": "2026-06-12T12:07:48.904329",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report: Chest X-Ray Analysis**\n=============================================\n\n**Patient Information**\n--------------------\n\n* Patient ID: [Insert Patient ID]\n* Date of Scan: [Insert Date of Scan]\n* Clinical Context: [Insert Clinical Context or Reason for Scan]\n\n**Primary Scan Findings**\n------------------------\n\n* The Chest X-Ray image shows a well-aerated lung field with no significant pleural effusion or pneumothorax.\n* The cardiac silhouette appears normal in size and shape.\n* The diaphragm is intact, and there are no visible rib fractures.\n\n**Specific Observations & Lesion/Anomaly Details**\n------------------------------------------------\n\n* **Right Upper Lobe (RUL) Opacity**: A 2.5 cm x 2.0 cm area of increased opacity is observed in the RUL, which may represent a consolidation or infiltrate.\n* **Left Lower Lobe (LLL) Nodule**: A 1.0 cm x 0.8 cm well-defined nodule is seen in the LLL, which may be a benign or malignant lesion.\n* **Hilar Enlargement**: The right hilar region shows mild enlargement, which may be due to lymphadenopathy or other causes.\n\n**Confidence Score Details (Reference 85.3%)**\n---------------------------------------------\n\n* The AI feature classification model reports a clinical confidence of 85.3% for the analysis.\n* This confidence score indicates a high degree of accuracy in the detection of the observed abnormalities.\n* However, it is essential to note that AI models are not perfect and may make errors, especially in cases with complex or subtle findings.\n\n**Severity Level**\n-----------------\n\n* **Moderate**: The observed abnormalities are concerning but not immediately life-threatening. Further evaluation and follow-up are necessary to determine the underlying cause and severity.\n\n**Clinical Recommendations**\n---------------------------\n\n* **Order Additional Imaging**: A CT scan of the chest with contrast should be performed to further evaluate the RUL opacity and LLL nodule.\n* **Obtain Laboratory Tests**: Complete blood count (CBC), basic metabolic panel (BMP), and inflammatory markers (e.g., CRP, ESR) should be ordered to assess for underlying infections or inflammatory conditions.\n* **Consult Pulmonology**: A pulmonologist should be consulted to evaluate the patient's respiratory symptoms and provide further guidance on management.\n\n**Suggested Next Steps / Referrals**\n--------------------------------------\n\n* **Follow-up Imaging**: Schedule a follow-up CT scan in 4-6 weeks to assess for changes in the RUL opacity and LLL nodule.\n* **Pulmonology Clinic**: Refer the patient to a pulmonology clinic for further evaluation and management.\n* **Infectious Disease Consult**: Consider consulting an infectious disease specialist if the patient's symptoms or laboratory results suggest an infectious etiology.\n\n**Disclaimer**\n--------------\n\nMediMind AI is not a substitute for professional medical advice. This diagnostic report is for educational purposes only and should not be used for clinical decision-making. A qualified radiologist or healthcare professional should interpret the scan and provide a final diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260612_120740_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260612_120743_scan_20260612_120740_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260612_120748.pdf"
+          },
+          {
+            "timestamp": "2026-06-12T12:09:00.488244",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report: Chest X-Ray**\n\n**Patient Information**\n* Not provided (Please note that patient information is not available for this analysis)\n\n**Scan Details**\n* Scan Type: Chest X-Ray\n* Clinical Confidence Score: 85.3%\n* Date of Scan: Not provided\n\n**Primary Scan Findings**\n* The Chest X-Ray shows a well-aerated lung field with no significant abnormalities in the cardiac silhouette.\n* There is a visible opacity in the right middle lobe, which is suggestive of a possible consolidation or atelectasis.\n\n**Specific Observations & Lesion/Anomaly Details**\n* The opacity in the right middle lobe is approximately 3 cm in diameter and is located in the posterior segment.\n* The opacity is well-defined and has a smooth border.\n* There is no evidence of cavitation or air-fluid levels.\n* The trachea is midline, and the mediastinal silhouette is normal.\n\n**Confidence Score Details (Reference 85.3%)**\n* The clinical confidence score of 85.3% indicates a high level of accuracy in the analysis of this Chest X-Ray.\n* The model's confidence is based on the presence of a well-defined opacity in the right middle lobe, which is a common finding in various pulmonary conditions.\n\n**Severity Level**\n* Moderate\n* Justification: The opacity in the right middle lobe is a significant finding, but it does not appear to be life-threatening or critical at this time. However, further evaluation is necessary to determine the underlying cause and potential severity of the condition.\n\n**Clinical Recommendations**\n* Order a follow-up Chest X-Ray in 24-48 hours to assess for any changes in the opacity.\n* Consider a computed tomography (CT) scan of the chest to further evaluate the opacity and rule out any underlying conditions such as pneumonia, atelectasis, or lung cancer.\n* Obtain a complete medical history and perform a physical examination to determine the patient's overall health status and potential risk factors for pulmonary disease.\n\n**Suggested Next Steps / Referrals**\n* Refer the patient to a pulmonologist or a primary care physician for further evaluation and management.\n* Consider ordering laboratory tests, such as a complete blood count (CBC) and blood cultures, to rule out any underlying infections.\n* Monitor the patient's symptoms and follow-up with a repeat Chest X-Ray as recommended.\n\n**Disclaimer**\nMediMind AI is not a substitute for professional medical advice. This diagnostic report is for informational purposes only and should not be used to make a diagnosis or determine a treatment plan. A qualified healthcare professional should review the report and make a final diagnosis and treatment plan based on the patient's individual needs and medical history.",
+            "image_url": "/static/output/scan_20260612_120853_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260612_120853_scan_20260612_120853_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260612_120900.pdf"
+          },
+          {
+            "timestamp": "2026-06-12T12:10:17.696539",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report: Chest X-Ray**\n=====================================\n\n**Patient Information**\n------------------------\n\n* Patient ID: [Insert Patient ID]\n* Date of Scan: [Insert Date of Scan]\n* Clinical Context: [Insert Clinical Context]\n\n**Primary Scan Findings**\n-------------------------\n\n### General Impression\n\nThe chest X-ray shows a normal cardiac silhouette with no evidence of mediastinal widening. The lung fields appear clear, with no significant consolidation or effusion.\n\n### Specific Observations\n\n* The trachea is midline, and the aortic knob is visible.\n* The diaphragm is intact, and the liver and spleen are not visible.\n* The lung fields show a few scattered, small, rounded opacities, which are likely due to overlying structures or minor pulmonary vascular markings.\n\n**Specific Observations & Lesion/Anomaly Details**\n---------------------------------------------------\n\n### Lesion/Anomaly 1\n\n* Location: Right upper lung zone\n* Description: A small, rounded opacity ( approximately 1 cm in diameter) with well-defined borders.\n* Appearance: The opacity is not significantly denser than the surrounding lung tissue.\n* Differential Diagnosis: Minor pulmonary vascular marking or a small, benign lesion (e.g., hamartoma).\n\n### Lesion/Anomaly 2\n\n* Location: Left lower lung zone\n* Description: A small, rounded opacity (approximately 0.5 cm in diameter) with well-defined borders.\n* Appearance: The opacity is not significantly denser than the surrounding lung tissue.\n* Differential Diagnosis: Minor pulmonary vascular marking or a small, benign lesion (e.g., hamartoma).\n\n**Confidence Score Details (Reference 85.3%)**\n---------------------------------------------\n\nThe AI feature classification model reports a clinical confidence of 85.3% for the primary scan findings. This indicates a high level of agreement between the AI model and the radiologist's interpretation.\n\n**Severity Level**\n------------------\n\nBased on the primary scan findings, the severity level is **Low**. The small, rounded opacities in the lung fields are likely minor and not indicative of a serious underlying condition.\n\n**Clinical Recommendations**\n---------------------------\n\n1. **Follow-up imaging**: Schedule a follow-up chest X-ray in 6-12 months to monitor the small, rounded opacities.\n2. **Clinical evaluation**: Perform a thorough clinical evaluation to rule out any underlying conditions that may be contributing to the small, rounded opacities.\n3. **Pulmonary function tests**: Consider ordering pulmonary function tests (PFTs) to assess lung function and rule out any underlying pulmonary conditions.\n\n**Suggested Next Steps / Referrals**\n--------------------------------------\n\n1. **Primary care physician**: Refer the patient to their primary care physician for further evaluation and management.\n2. **Pulmonologist**: Consider referring the patient to a pulmonologist for further evaluation and management if the small, rounded opacities persist or worsen.\n\n**Disclaimer**\n--------------\n\nThis diagnostic report is for informational purposes only and should not be considered a substitute for professional medical advice. A qualified healthcare professional should interpret the scan results and provide a definitive diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260612_121010_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260612_121010_scan_20260612_121010_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260612_121017.pdf"
+          },
+          {
+            "timestamp": "2026-06-12T12:12:38.430064",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report: Chest X-Ray Analysis**\n=============================================\n\n**Patient Information**\n---------------------\n\n* Patient ID: [Insert Patient ID]\n* Date of Scan: [Insert Date of Scan]\n* Age: [Insert Age]\n* Sex: [Insert Sex]\n\n**Primary Scan Findings**\n------------------------\n\n* The chest X-ray shows a well-defined, rounded opacity in the right upper lobe of the lung.\n* The opacity is approximately 2 cm in diameter and has a smooth, well-defined border.\n* The lung fields are otherwise clear, with no evidence of pulmonary edema or pleural effusion.\n\n**Specific Observations & Lesion/Anomaly Details**\n------------------------------------------------\n\n* **Right Upper Lobe Opacity**: The opacity is located in the right upper lobe of the lung, near the hilum. It is well-defined and rounded, with a smooth border. The opacity is likely a pulmonary nodule or a small consolidation.\n* **Lung Fields**: The lung fields are otherwise clear, with no evidence of pulmonary edema or pleural effusion.\n* **Cardiovascular System**: The cardiac silhouette is normal, with no evidence of cardiomegaly or pericardial effusion.\n\n**Confidence Score Details (Reference 85.3%)**\n------------------------------------------------\n\n* The AI feature classification model reports a clinical confidence of 85.3% in the diagnosis.\n* The confidence score is based on the model's analysis of the image features and its comparison with a large dataset of normal and abnormal chest X-rays.\n* The high confidence score indicates that the model is highly confident in its diagnosis, but it is essential to note that the final diagnosis should be made by a qualified radiologist.\n\n**Severity Level**\n------------------\n\n* **Moderate**: The opacity in the right upper lobe of the lung is a moderate concern, as it may be a pulmonary nodule or a small consolidation. However, the opacity is well-defined and rounded, which suggests that it may be a benign lesion.\n\n**Clinical Recommendations**\n---------------------------\n\n* **Further Imaging**: A follow-up chest X-ray or a CT scan of the chest may be necessary to further evaluate the opacity and determine its nature.\n* **Clinical Evaluation**: The patient should undergo a clinical evaluation, including a thorough history and physical examination, to determine the cause of the opacity.\n* **Biopsy**: If the opacity is suspected to be a malignancy, a biopsy may be necessary to confirm the diagnosis.\n\n**Suggested Next Steps / Referrals**\n--------------------------------------\n\n* **Follow-up Imaging**: Schedule a follow-up chest X-ray or a CT scan of the chest in 6-12 weeks to evaluate the opacity and determine its nature.\n* **Clinical Consultation**: Refer the patient to a pulmonologist or a thoracic surgeon for further evaluation and management.\n* **Biopsy**: If the opacity is suspected to be a malignancy, refer the patient to a radiologist or a pathologist for a biopsy.\n\n**Disclaimer**\n--------------\n\nMediMind AI is not a substitute for professional medical advice. This diagnostic report is for informational purposes only and should not be used to make a final diagnosis or treatment decision. A qualified radiologist should review the image and make a final diagnosis.",
+            "image_url": "/static/output/scan_20260612_121232_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260612_121233_scan_20260612_121232_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260612_121238.pdf"
+          },
+          {
+            "timestamp": "2026-06-12T12:14:08.986116",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report: Chest X-Ray Analysis**\n=============================================\n\n**Patient Information**\n----------------------\n\n* Patient ID: [Insert Patient ID]\n* Date of Scan: [Insert Date of Scan]\n* Age: [Insert Age]\n* Sex: [Insert Sex]\n\n**Primary Scan Findings**\n-------------------------\n\nBased on the Chest X-Ray analysis, the primary findings are:\n\n* Bilateral lung fields are clear, with no evidence of consolidation or effusion.\n* The cardiac silhouette is normal in size and shape.\n* The diaphragms are flat and even.\n* The mediastinum is unremarkable.\n\n**Specific Observations & Lesion/Anomaly Details**\n------------------------------------------------\n\nUpon closer examination, the following observations were made:\n\n* A 2.5 cm x 2.0 cm nodular opacity is present in the right upper lobe, located at the lung periphery.\n* The opacity is well-defined and has a smooth margin.\n* There is no evidence of cavitation or calcification.\n* The opacity is not associated with any adjacent lymphadenopathy.\n\n**Confidence Score Details (Reference 85.3%)**\n---------------------------------------------\n\nThe AI feature classification model reports a clinical confidence of 85.3% for the diagnosis. This confidence score is based on the model's ability to accurately identify the nodular opacity and its characteristics.\n\n**Severity Level**\n------------------\n\nBased on the findings, the severity level is **Moderate**. The nodular opacity is relatively large and has a smooth margin, which suggests a possible benign or malignant process. However, the lack of associated lymphadenopathy and the well-defined margin reduce the likelihood of a malignant process.\n\n**Clinical Recommendations**\n---------------------------\n\nBased on the findings, the following clinical recommendations are made:\n\n* Order a follow-up Chest X-Ray in 6-8 weeks to assess for any change in the size or characteristics of the nodular opacity.\n* Consider a CT scan of the chest to further evaluate the nodular opacity and rule out any underlying malignancy.\n* Perform a thorough history and physical examination to assess for any symptoms or signs that may be related to the nodular opacity.\n\n**Suggested Next Steps / Referrals**\n--------------------------------------\n\n* Refer the patient to a pulmonologist or a thoracic surgeon for further evaluation and management.\n* Consider ordering additional imaging studies, such as a PET scan or a CT scan of the abdomen, to assess for any metastatic disease.\n\n**Disclaimer**\n--------------\n\nThis diagnostic report is for informational purposes only and should not be used as a substitute for professional medical advice. A qualified healthcare professional should review the report and make a final diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260612_121407_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260612_121407_scan_20260612_121407_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260612_121408.pdf"
+          },
+          {
+            "timestamp": "2026-06-14T11:53:31.909361",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report: Chest X-Ray Analysis**\n=============================================\n\n**Patient Information**\n------------------------\n\n* Patient ID: [Insert Patient ID]\n* Date of Scan: [Insert Date]\n* Age: [Insert Age]\n* Sex: [Insert Sex]\n\n**Primary Scan Findings**\n-------------------------\n\nBased on the Chest X-Ray analysis, the primary findings are:\n\n* **Cardiomegaly**: The heart appears enlarged, occupying more than 50% of the thoracic cavity.\n* **Bilateral Pleural Effusion**: Fluid accumulation is visible in both lungs, indicating possible pulmonary edema or pleural disease.\n* **Lung Parenchymal Opacities**: Patchy opacities are observed in the lower lobes of both lungs, suggesting possible infection or inflammation.\n\n**Specific Observations & Lesion/Anomaly Details**\n---------------------------------------------------\n\n* **Cardiomegaly**: The cardiac silhouette is enlarged, with a cardiothoracic ratio of 0.55. This may indicate left ventricular hypertrophy, cardiomyopathy, or other cardiac conditions.\n* **Bilateral Pleural Effusion**: The fluid accumulation is more pronounced on the right side, with a thickness of 10 mm. This may indicate a pleural effusion due to infection, malignancy, or other causes.\n* **Lung Parenchymal Opacities**: The opacities are more pronounced in the lower lobes, with a diameter of 2-3 cm. This may indicate a focal infection, such as pneumonia, or other lung conditions.\n\n**Confidence Score Details (Reference 85.3%)**\n------------------------------------------------\n\nThe clinical confidence score of 85.3% indicates a high degree of certainty in the diagnosis. However, it is essential to note that this score is based on the AI model's analysis and may not reflect the full clinical context.\n\n**Severity Level**\n-------------------\n\nBased on the findings, the severity level is **Moderate**. The cardiomegaly and bilateral pleural effusion may indicate a significant underlying condition, while the lung parenchymal opacities suggest a possible infection or inflammation.\n\n**Clinical Recommendations**\n---------------------------\n\n1. **Order a CT Scan**: To further evaluate the cardiac and pulmonary findings, a CT scan of the chest is recommended.\n2. **Electrocardiogram (ECG)**: To assess cardiac function and rule out arrhythmias.\n3. **Blood Tests**: To evaluate for underlying infections, inflammation, or other conditions.\n4. **Pulmonary Function Tests (PFTs)**: To assess lung function and rule out chronic obstructive pulmonary disease (COPD) or other lung conditions.\n\n**Suggested Next Steps / Referrals**\n--------------------------------------\n\n1. **Consult a Pulmonologist**: To further evaluate and manage the pulmonary findings.\n2. **Consult a Cardiologist**: To further evaluate and manage the cardiac findings.\n3. **Hospital Admission**: If the patient's condition worsens or if there are concerns about cardiac or pulmonary stability.\n\n**Disclaimer**\n---------------\n\nThis diagnostic report is provided for informational purposes only and should not be considered a substitute for professional medical advice. A qualified healthcare professional should interpret the results and make a final diagnosis.",
+            "image_url": "/static/output/scan_20260614_115328_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260614_115329_scan_20260614_115328_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260614_115331.pdf"
+          },
+          {
+            "timestamp": "2026-06-14T12:13:51.750860",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report**\n\n**Patient Information**\n* Not provided (Please note that patient information is not available for this analysis)\n\n**Scan Details**\n* Modality: Chest X-Ray\n* Organ: Lung\n* Position: Posteroanterior (PA) view\n\n**Primary Scan Findings**\n* Bilateral lung fields are clear with no evidence of pneumothorax, pleural effusion, or significant cardiomegaly.\n* The mediastinum is within normal limits.\n* The diaphragms are intact and at the expected level.\n\n**Specific Observations & Lesion/Anomaly Details**\n* A 2.5 cm x 2.0 cm well-defined, rounded opacity is seen in the right middle lobe, located at the lung periphery.\n* The opacity is denser than the surrounding lung tissue and has a smooth, well-defined border.\n* There is no evidence of cavitation or air-fluid levels within the opacity.\n* The opacity is not associated with any significant lymphadenopathy or pleural reaction.\n\n**Confidence Score Details**\n* The AI feature classification model reports a clinical confidence of 85.3% for the diagnosis.\n* The confidence score is based on the model's ability to accurately identify the opacity as a benign lesion, such as a granuloma or a hamartoma.\n\n**Severity Level**\n* Moderate\n* The opacity is well-defined and not associated with any significant lymphadenopathy or pleural reaction, suggesting a benign etiology. However, the size and location of the opacity warrant further evaluation to rule out any potential malignancy.\n\n**Clinical Recommendations**\n* Order a follow-up chest X-ray in 6-12 weeks to assess for any change in the size or appearance of the opacity.\n* Consider a CT scan of the chest to further evaluate the opacity and rule out any potential malignancy.\n* Obtain a thorough history and physical examination to assess for any symptoms or risk factors that may be associated with the opacity.\n\n**Suggested Next Steps / Referrals**\n* Schedule a follow-up appointment with a pulmonologist or a radiologist to discuss the results and determine the next course of action.\n* Consider referring the patient to a thoracic surgeon for further evaluation and management if the opacity is found to be malignant.\n\n**Disclaimer**\nMediMind AI is not a substitute for professional medical advice. This diagnostic report is for informational purposes only and should not be used to make a definitive diagnosis or treatment plan. A qualified healthcare professional should review the results and provide a final diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260614_121346_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260614_121347_scan_20260614_121346_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260614_121351.pdf"
+          },
+          {
+            "timestamp": "2026-06-14T12:22:39.925271",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report**\n======================\n\n**Patient Information**\n---------------------\n\n* **Patient ID**: Not Provided\n* **Date of Scan**: Not Provided\n\n**Scan Information**\n-------------------\n\n* **Modality**: Chest X-Ray\n* **Organ**: Chest\n* **Position**: Postero-Anterior (PA)\n\n**Primary Scan Findings**\n------------------------\n\n* **Cardiovascular System**: The cardiac silhouette appears normal in size and shape.\n* **Lung Fields**: The lung fields are clear, with no evidence of consolidation, effusion, or pneumothorax.\n* **Diaphragm**: The diaphragm is flat and even, with no evidence of elevation or blunting.\n\n**Specific Observations & Lesion/Anomaly Details**\n------------------------------------------------\n\n* **Right Upper Lobe**: A 2.5 cm x 2.0 cm well-defined, rounded opacity is present in the right upper lobe, located at the lung periphery. The opacity is denser than the surrounding lung tissue and has a smooth, well-defined border.\n* **Left Lower Lobe**: A 1.8 cm x 1.2 cm nodular opacity is present in the left lower lobe, located in the posterior segment. The opacity is denser than the surrounding lung tissue and has a somewhat irregular border.\n\n**Confidence Score Details (Reference 85.3%)**\n--------------------------------------------\n\n* **Clinical Confidence Score**: 85.3%\n* **Model Accuracy**: The AI feature classification model has achieved an accuracy of 85.3% in identifying the primary scan findings and specific observations.\n* **Model Limitations**: The model may have limitations in accurately identifying subtle or complex abnormalities, particularly in cases with overlapping or atypical presentations.\n\n**Severity Level**\n------------------\n\n* **Severity Level**: Moderate\n* **Justification**: The presence of two distinct opacities in the lung fields, one with a smooth border and the other with an irregular border, suggests a moderate level of severity. The opacities may be indicative of pulmonary nodules or consolidations, which require further evaluation and management.\n\n**Clinical Recommendations**\n---------------------------\n\n* **Further Evaluation**: The patient should undergo further evaluation, including a computed tomography (CT) scan of the chest, to better characterize the opacities and determine their nature.\n* **Pulmonary Function Tests**: The patient should undergo pulmonary function tests (PFTs) to assess lung function and identify any potential respiratory compromise.\n* **Chest CT Scan**: A chest CT scan should be performed to better characterize the opacities and determine their nature.\n\n**Suggested Next Steps / Referrals**\n--------------------------------------\n\n* **Referral to Pulmonologist**: The patient should be referred to a pulmonologist for further evaluation and management.\n* **Follow-up Imaging**: The patient should undergo follow-up imaging studies, including chest X-rays and CT scans, to monitor the opacities and assess any changes over time.\n* **Clinical Follow-up**: The patient should be followed clinically to assess any symptoms or signs of respiratory compromise.\n\n**Disclaimer**\n--------------\n\nMediMind AI is not a substitute for professional medical advice. This diagnostic report is for informational purposes only and should not be used to make a definitive diagnosis or treatment plan. A qualified healthcare professional should review the report and make a final diagnosis and treatment plan based on the patient's clinical presentation and medical history.",
+            "image_url": "/static/output/scan_20260614_122236_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260614_122236_scan_20260614_122236_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260614_122239.pdf"
+          },
+          {
+            "timestamp": "2026-06-14T12:42:12.350412",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report**\n======================\n\n**Patient Information**\n---------------------\n\n* Not provided (Please provide patient information for accurate diagnosis)\n\n**Scan Information**\n-------------------\n\n* Modality: Chest X-Ray\n* Organ: Chest\n* Position: Posteroanterior (PA) view\n\n**Primary Scan Findings**\n------------------------\n\n* Bilateral lung fields are clear with no evidence of consolidation or effusion.\n* Cardiac silhouette is normal.\n* Diaphragms are flat and even.\n* No obvious signs of pneumothorax or pleural disease.\n\n**Specific Observations & Lesion/Anomaly Details**\n------------------------------------------------\n\n* A 2.5 cm nodule is observed in the right upper lobe (RUL) of the lung, located 2 cm from the hilum. The nodule is well-defined, round, and has a smooth margin. It is not calcified.\n* A 1.2 cm nodule is observed in the left lower lobe (LLL) of the lung, located 3 cm from the hilum. The nodule is well-defined, round, and has a smooth margin. It is not calcified.\n* The nodule in the RUL is slightly larger and more prominent than the nodule in the LLL.\n\n**Confidence Score Details**\n---------------------------\n\n* The AI feature classification model reports a clinical confidence of 85.3% for the presence of lung nodules.\n* The confidence score is based on the model's ability to detect and classify lung nodules in chest X-ray images.\n\n**Severity Level**\n------------------\n\n* **Moderate**: The presence of two lung nodules, one in the RUL and one in the LLL, suggests a moderate level of severity. However, further evaluation is needed to determine the nature and significance of these nodules.\n\n**Clinical Recommendations**\n---------------------------\n\n* Order a follow-up chest X-ray in 6-12 months to monitor the size and characteristics of the lung nodules.\n* Consider a computed tomography (CT) scan of the chest to further evaluate the lung nodules and rule out other potential causes of the nodules.\n* Refer the patient to a pulmonologist or thoracic surgeon for further evaluation and management.\n\n**Suggested Next Steps / Referrals**\n------------------------------------\n\n* Order a CT scan of the chest to further evaluate the lung nodules.\n* Refer the patient to a pulmonologist or thoracic surgeon for further evaluation and management.\n* Consider ordering a positron emission tomography (PET) scan to assess the metabolic activity of the lung nodules.\n\n**Disclaimer**\n--------------\n\nMediMind AI is not a substitute for professional medical advice. This diagnostic report is for informational purposes only and should not be used to make a diagnosis or treatment decisions. A qualified healthcare professional should review the scan and provide a final diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260614_124206_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260614_124207_scan_20260614_124206_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260614_124212.pdf"
+          },
+          {
+            "timestamp": "2026-06-14T12:45:47.621877",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report**\n\n**Patient Information**\nNot provided. Please provide patient information for accurate reporting.\n\n**Scan Details**\n- **Modality/Organ**: Chest X-Ray\n- **Position**: Posteroanterior (PA) view\n- **Clinical Confidence**: 85.3%\n\n**Primary Scan Findings**\n- **Cardiothoracic**: Bilateral lung fields are clear with no evidence of consolidation or effusion.\n- **Thoracic Spine**: No significant abnormalities are noted.\n- **Diaphragm**: No abnormalities are observed.\n- **Cardiac Silhouette**: The cardiac silhouette is within normal limits.\n\n**Specific Observations & Lesion/Anomaly Details**\n- **Right Upper Lobe (RUL)**: A 2.5 cm, well-defined, circular opacity is noted in the right upper lobe, consistent with a pulmonary nodule.\n- **Left Lower Lobe (LLL)**: A 1.8 cm, well-defined, oval opacity is observed in the left lower lobe, consistent with a pulmonary nodule.\n- **Hilar Shadows**: Bilateral hilar shadows are present, which may be due to lymphadenopathy or calcification.\n\n**Confidence Score Details**\nThe clinical confidence score of 85.3% indicates a high degree of accuracy in the interpretation of the chest X-ray. However, it is essential to note that a confidence score is not a substitute for a thorough clinical evaluation and further diagnostic testing.\n\n**Severity Level**\n- **Moderate**: The presence of two pulmonary nodules, one in the RUL and the other in the LLL, suggests a moderate severity level. However, the size and characteristics of the nodules are not concerning for malignancy at this time.\n\n**Clinical Recommendations**\n- **Further Evaluation**: The patient should undergo further evaluation, including a computed tomography (CT) scan of the chest, to assess the size, number, and characteristics of the pulmonary nodules.\n- **Imaging Follow-up**: Follow-up chest X-rays or CT scans should be performed to monitor the size and characteristics of the nodules over time.\n- **Clinical Assessment**: A thorough clinical assessment, including a history and physical examination, should be performed to evaluate the patient's overall health and identify any potential risk factors for malignancy.\n\n**Suggested Next Steps / Referrals**\n- **Referral to Pulmonologist**: The patient should be referred to a pulmonologist for further evaluation and management.\n- **CT Scan of the Chest**: A CT scan of the chest should be performed to assess the size, number, and characteristics of the pulmonary nodules.\n- **Imaging Follow-up**: Follow-up imaging should be performed to monitor the size and characteristics of the nodules over time.\n\n**Disclaimer**\nMediMind AI is not a substitute for professional medical advice. This diagnostic report is for educational purposes only and should not be used for clinical decision-making. A qualified healthcare professional should interpret the scan and provide a final diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260614_124542_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260614_124542_scan_20260614_124542_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260614_124547.pdf"
+          },
+          {
+            "timestamp": "2026-06-14T12:49:16.690701",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report**\n=====================\n\n**Patient Information**\n---------------------\n\n* Not available in this scenario, as this is a simulated medical scan image analysis.\n\n**Scan Information**\n-------------------\n\n* **Modality/Organ:** Chest X-Ray\n* **Position:** Postero-Anterior (PA) view\n* **Clinical Confidence Score:** 85.3%\n\n**Primary Scan Findings**\n------------------------\n\n* **Cardiomegaly:** The heart appears enlarged, occupying more than 50% of the thoracic cavity.\n* **Bilateral Pleural Effusions:** Fluid accumulation is visible in both lungs, with a more pronounced effusion on the right side.\n* **Lung Fields:** The lung fields appear hazy, with increased opacity, particularly in the lower lobes.\n\n**Specific Observations & Lesion/Anomaly Details**\n------------------------------------------------\n\n* **Cardiac Enlargement:** The cardiac silhouette is enlarged, with a cardiothoracic ratio of approximately 0.55. This suggests left ventricular hypertrophy or cardiomyopathy.\n* **Pleural Effusions:** The bilateral pleural effusions are likely transudative, given the lack of evidence for a mass or other obstructive process. The right-sided effusion is more pronounced, which may indicate a higher level of fluid accumulation or a possible mass effect.\n* **Lung Opacity:** The hazy lung fields suggest an infectious or inflammatory process, such as pneumonia or acute respiratory distress syndrome (ARDS).\n\n**Confidence Score Details (Reference 85.3%)**\n---------------------------------------------\n\nThe clinical confidence score of 85.3% indicates a high level of accuracy in the analysis. However, it is essential to note that the confidence score is not a substitute for a human radiologist's interpretation. A human radiologist would review the scan and provide a final diagnosis.\n\n**Severity Level**\n-----------------\n\n* **Moderate:** The patient's condition appears to be moderate, with significant pleural effusions and cardiac enlargement. However, the lung fields are not severely compromised, and there is no evidence of a critical condition, such as a massive pulmonary embolism or cardiac tamponade.\n\n**Clinical Recommendations**\n---------------------------\n\n1. **Admit the patient to the hospital:** Given the moderate severity of the patient's condition, it is essential to admit them to the hospital for further evaluation and management.\n2. **Order a chest CT scan:** A chest CT scan would provide more detailed information about the pleural effusions, lung fields, and cardiac enlargement.\n3. **Perform a thoracentesis:** A thoracentesis would help to determine the nature of the pleural effusions and may provide diagnostic information.\n4. **Consult a cardiologist:** Given the cardiac enlargement, it is essential to consult a cardiologist to evaluate the patient's cardiac function and rule out any underlying cardiac conditions.\n\n**Suggested Next Steps / Referrals**\n--------------------------------------\n\n1. **Hospital Admission:** Admit the patient to the hospital for further evaluation and management.\n2. **Chest CT Scan:** Order a chest CT scan to provide more detailed information about the pleural effusions, lung fields, and cardiac enlargement.\n3. **Thoracentesis:** Perform a thoracentesis to determine the nature of the pleural effusions.\n4. **Cardiologist Consultation:** Consult a cardiologist to evaluate the patient's cardiac function and rule out any underlying cardiac conditions.\n\n**Disclaimer**\n--------------\n\nThis diagnostic report is for educational purposes only and should not be used as a substitute for professional medical advice. A human radiologist's interpretation is essential for an accurate diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260614_124907_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260614_124907_scan_20260614_124907_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260614_124916.pdf"
+          },
+          {
+            "timestamp": "2026-06-14T13:00:36.747175",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report**\n=====================\n\n**Patient Information**\n--------------------\n\n* Not provided (Please provide patient information for accurate report)\n\n**Scan Information**\n-------------------\n\n* **Modality/Organ**: Chest X-Ray\n* **Position**: Posteroanterior (PA) view\n* **Clinical Confidence**: 85.3%\n\n**Primary Scan Findings**\n------------------------\n\n* **Cardiomegaly**: The cardiac silhouette appears enlarged, suggesting left ventricular hypertrophy or cardiomyopathy.\n* **Bilateral Pleural Effusions**: Fluid collections are visible in both lung fields, indicating pleural effusions.\n* **Lung Fields**: The lung fields appear hyperinflated, suggesting chronic obstructive pulmonary disease (COPD) or asthma.\n\n**Specific Observations & Lesion/Anomaly Details**\n------------------------------------------------\n\n* **Cardiac Enlargement**: The cardiac silhouette measures 15.5 cm in diameter, which is above the normal range (12-14 cm).\n* **Pleural Effusions**: Bilateral pleural effusions are visible, with the right side being more pronounced. The fluid collections measure approximately 2 cm in diameter.\n* **Lung Fields**: The lung fields appear hyperinflated, with increased lung markings and a \"batwing\" appearance.\n\n**Confidence Score Details**\n---------------------------\n\n* **Clinical Confidence**: 85.3% (The AI feature classification model reports a high level of confidence in the diagnosis, but please note that a human radiologist's interpretation is always necessary for final diagnosis.)\n\n**Severity Level**\n-----------------\n\n* **Moderate**: The patient's condition appears to be moderate, with cardiomegaly and bilateral pleural effusions indicating a significant underlying disease process.\n\n**Clinical Recommendations**\n---------------------------\n\n* **Admit to Hospital**: The patient should be admitted to the hospital for further evaluation and treatment.\n* **Chest CT Scan**: A chest CT scan should be performed to further evaluate the extent of the disease process and to rule out any complications.\n* **Cardiology Consultation**: A cardiology consultation should be obtained to evaluate the patient's cardiac function and to determine the best course of treatment.\n\n**Suggested Next Steps / Referrals**\n--------------------------------------\n\n* **Cardiology Consultation**: Refer the patient to a cardiologist for further evaluation and treatment.\n* **Pulmonology Consultation**: Refer the patient to a pulmonologist for further evaluation and treatment of the pleural effusions and lung disease.\n* **Hospital Admission**: Admit the patient to the hospital for further evaluation and treatment.\n\n**Disclaimer**\n--------------\n\nMediMind AI is not a substitute for professional medical advice. This report is for educational purposes only and should not be used for diagnosis or treatment without consulting a qualified healthcare professional.",
+            "image_url": "/static/output/scan_20260614_130032_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260614_130032_scan_20260614_130032_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260614_130036.pdf"
+          },
+          {
+            "timestamp": "2026-06-14T13:05:44.871394",
+            "type": "auto",
+            "confidence": 0.8779022845625877,
+            "analysis": "**Diagnostic Report**\n\n**Modality/Organ:** CT Scan of the Abdomen\n\n**Clinical Confidence Score:** 87.8%\n\n**Primary Scan Findings:**\n- The CT scan of the abdomen reveals a well-defined, heterogeneous mass in the left lobe of the liver.\n- The mass measures approximately 4.5 cm in diameter and is isodense to the surrounding liver parenchyma.\n- There is no significant enhancement of the mass on contrast administration.\n\n**Specific Observations & Lesion/Anomaly Details:**\n- The mass is surrounded by a thin rim of low-attenuation tissue, suggestive of a fibrotic or inflammatory reaction.\n- There is no evidence of calcification or fat within the mass.\n- The surrounding liver parenchyma appears normal, with no evidence of cirrhosis or other liver pathology.\n\n**Confidence Score Details:**\n- The clinical confidence score of 87.8% indicates a high degree of certainty in the diagnosis, but not absolute.\n- The model's confidence is based on the presence of a well-defined mass in the liver, which is a common site for metastatic disease.\n- However, the lack of significant enhancement on contrast administration and the presence of a fibrotic or inflammatory reaction surrounding the mass suggest that the mass may be benign.\n\n**Severity Level:** Moderate\n- The severity level is moderate due to the presence of a mass in the liver, which can be a sign of underlying pathology.\n- However, the mass is well-defined and does not appear to be causing significant distortion of the surrounding liver parenchyma.\n\n**Clinical Recommendations:**\n- Further imaging with MRI or PET/CT to better characterize the mass and determine its nature.\n- Biopsy of the mass to obtain a definitive diagnosis.\n- Clinical correlation with the patient's medical history and physical examination findings.\n\n**Suggested Next Steps / Referrals:**\n- Referral to a hepatologist or oncologist for further evaluation and management.\n- Consideration of a biopsy or fine-needle aspiration of the mass to obtain a definitive diagnosis.\n- Follow-up imaging with MRI or PET/CT to monitor the mass for any changes.\n\n**Disclaimer:** I am not a substitute for professional medical advice. This diagnostic report is for educational purposes only and should not be used to make a diagnosis or determine treatment. A qualified healthcare professional should interpret the scan and provide a diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260614_130542_burn image.png",
+            "heatmap_url": "/static/output/heatmap_20260614_130542_scan_20260614_130542_burn image.png",
+            "pdf_url": "/static/output/imaging_report_20260614_130544.pdf"
+          },
+          {
+            "timestamp": "2026-06-14T14:59:21.067947",
+            "type": "chest_xray",
+            "confidence": 0.8528389535658061,
+            "analysis": "**Diagnostic Report**\n=====================\n\n**Patient Information**\n---------------------\n\n* Not provided (Please note that patient information is not available for this analysis)\n\n**Scan Information**\n-------------------\n\n* **Modality/Organ:** Chest X-Ray\n* **Position:** Postero-Anterior (PA)\n* **Clinical Confidence Score:** 85.3%\n\n**Primary Scan Findings**\n------------------------\n\n* **Cardiomegaly:** The cardiac silhouette appears enlarged, suggesting left ventricular hypertrophy or cardiomyopathy.\n* **Bilateral Pleural Effusions:** There are bilateral pleural effusions, with the right side being more pronounced. This could be indicative of a respiratory or cardiac issue.\n* **Lung Fields:** The lung fields appear hyperinflated, with a few scattered, small, rounded opacities.\n\n**Specific Observations & Lesion/Anomaly Details**\n------------------------------------------------\n\n* **Right Upper Lobe:** There is a small, rounded opacity in the right upper lobe, which could be a pulmonary nodule or a small consolidation.\n* **Left Lower Lobe:** There is a small, rounded opacity in the left lower lobe, which could be a pulmonary nodule or a small consolidation.\n* **Hilar Enlargement:** The hilar regions appear enlarged, which could be indicative of lymphadenopathy or pulmonary hypertension.\n\n**Confidence Score Details (Reference 85.3%)**\n---------------------------------------------\n\nThe clinical confidence score of 85.3% indicates a high degree of certainty in the diagnosis. However, it is essential to note that a confidence score is not a substitute for a professional medical opinion.\n\n**Severity Level**\n-----------------\n\n* **Moderate:** The findings suggest a moderate level of severity, with potential implications for the patient's respiratory and cardiac health.\n\n**Clinical Recommendations**\n---------------------------\n\n* **Further Imaging:** Consider ordering a CT scan or MRI to further evaluate the cardiac and pulmonary findings.\n* **Cardiac Evaluation:** Refer the patient to a cardiologist for further evaluation of the cardiomegaly and potential cardiac issues.\n* **Pulmonary Function Tests:** Consider ordering pulmonary function tests to assess the patient's lung function and potential respiratory issues.\n\n**Suggested Next Steps / Referrals**\n-------------------------------------\n\n* **Primary Care Physician:** Refer the patient back to their primary care physician for further evaluation and management.\n* **Cardiologist:** Refer the patient to a cardiologist for further evaluation of the cardiomegaly and potential cardiac issues.\n* **Pulmonologist:** Consider referring the patient to a pulmonologist for further evaluation of the pulmonary findings.\n\n**Disclaimer**\n--------------\n\nThis diagnostic report is for informational purposes only and should not be considered a substitute for professional medical advice. A qualified healthcare professional should review the report and provide a final diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260614_145918_scan.png",
+            "heatmap_url": "/static/output/heatmap_20260614_145919_scan_20260614_145918_scan.png",
+            "pdf_url": "/static/output/imaging_report_20260614_145921.pdf"
+          }
+        ]
+      },
+      "adherence": {
+        "taken": 26,
+        "missed": 13,
+        "logs": [
+          {
+            "timestamp": "2026-06-12T12:07:40.837142",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:07:40.843655",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:07:40.847656",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-12T12:08:53.338170",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:08:53.342183",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:08:53.346628",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-12T12:10:10.358043",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:10:10.367872",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:10:10.374240",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-12T12:12:32.894413",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:12:32.899402",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:12:32.904430",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-12T12:14:07.453384",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:14:07.460839",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-12T12:14:07.467469",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-14T11:53:28.904800",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T11:53:28.916489",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T11:53:28.928764",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-14T12:13:46.573861",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:13:46.598021",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:13:46.618582",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-14T12:22:36.246176",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:22:36.270501",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:22:36.297413",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-14T12:42:06.384383",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:42:06.411436",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:42:06.438422",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-14T12:45:41.944951",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:45:41.961272",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:45:42.005469",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-14T12:49:07.577500",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:49:07.593313",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:49:07.613146",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-14T13:00:32.271414",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T13:00:32.292365",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T13:00:32.308690",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-14T14:59:18.318747",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T14:59:18.349430",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T14:59:18.376315",
+            "date": "2026-06-12",
+            "med_name": "Amoxicillin",
+            "time_slot": "08:00 PM",
+            "action": "miss"
+          }
+        ]
+      }
+    },
+    "qa_browser_test@medimind.com": {
+      "name": "QA Browser Test",
+      "password": "a109e36947ad56de1dca1cc49f0ef8ac9ad9a7b1aa0df41fb3c4cb73c1ff01ea",
+      "created_at": "2026-06-12T12:21:40.327560",
+      "reports_data": {
+        "report_jan.pdf": "Glucose: 110 mg/dL HbA1c: 6.5% Cholesterol: 210 mg/dL"
+      },
+      "history": {
+        "chats": [
+          {
+            "timestamp": "2026-06-12T12:22:57.504675",
+            "mode": "educational",
+            "user_message": "What is diabetes?",
+            "ai_response": "**Diabetes Overview**\n=====================\n\nDiabetes is a group of metabolic disorders characterized by high blood sugar levels. It occurs when the body either cannot produce enough insulin (a hormone produced by the pancreas that regulates blood sugar levels) or cannot effectively use the insulin it produces.\n\n**Types of Diabetes**\n----------------------\n\nThere are several types of diabetes:\n\n### 1. **Type 1 Diabetes**\n\n*   An autoimmune disease in which the body's immune system attacks and destroys the cells in the pancreas that produce insulin.\n*   Typically develops in childhood or adolescence, but can also occur in adults.\n*   Requires insulin therapy to control blood sugar levels.\n\n### 2. **Type 2 Diabetes**\n\n*   The most common form of diabetes, accounting for about 90% of all cases.\n*   Occurs when the body becomes resistant to insulin, making it harder for glucose to enter cells.\n*   Can often be managed through lifestyle changes, such as diet and exercise, and may require medication or insulin therapy.\n\n### 3. **Gestational Diabetes**\n\n*   Develops during pregnancy, usually in the second or third trimester.\n*   Caused by hormonal changes and insulin resistance.\n*   Typically resolves after pregnancy, but women who have had gestational diabetes are at increased risk of developing type 2 diabetes later in life.\n\n### 4. **LADA (Latent Autoimmune Diabetes in Adults)**\n\n*   A form of type 1 diabetes that develops in adults.\n*   Similar to type 1 diabetes, but may take longer to develop and may be managed with oral medications or insulin therapy.\n\n**Symptoms of Diabetes**\n-------------------------\n\n*   Increased thirst and urination\n*   Fatigue\n*   Blurred vision\n*   Slow healing of cuts and wounds\n*   Tingling or numbness in hands and feet\n\n**Complications of Diabetes**\n-----------------------------\n\n*   Heart disease and stroke\n*   Kidney damage (nephropathy)\n*   Nerve damage (neuropathy)\n*   Blindness (retinopathy)\n*   Foot damage and amputation\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect you or a loved one may have diabetes, consult a qualified healthcare professional for proper diagnosis and treatment.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:23:21.304373",
+            "mode": "symptom_interview",
+            "user_message": "I have fever and cough",
+            "ai_response": "I understand you are experiencing symptoms. Let me ask you a few questions to assist you.\n\n**Question 1 of 6:** What is your age?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:23:36.135137",
+            "mode": "symptom_interview",
+            "user_message": "30",
+            "ai_response": "**Question 2 of 6:** What is your gender?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:23:58.683481",
+            "mode": "symptom_interview",
+            "user_message": "Male",
+            "ai_response": "**Question 3 of 6:** How long have you had these symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:24:14.072432",
+            "mode": "symptom_interview",
+            "user_message": "3 days",
+            "ai_response": "**Question 4 of 6:** On a scale of 1-10, how severe are your symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:24:29.346506",
+            "mode": "symptom_interview",
+            "user_message": "6",
+            "ai_response": "**Question 5 of 6:** Do you have any existing medical conditions?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:24:41.376000",
+            "mode": "symptom_interview",
+            "user_message": "None",
+            "ai_response": "**Question 6 of 6:** Are you experiencing any other related symptoms?",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          },
+          {
+            "timestamp": "2026-06-12T12:24:57.944315",
+            "mode": "symptom_interview_complete",
+            "user_message": "No, just mild headache",
+            "ai_response": "**Symptom Assessment and Clinical Evaluation**\n=============================================\n\n**Disclaimer:** MediMind AI is not a substitute for professional medical advice. This assessment is for informational purposes only and should not be used to diagnose or treat any medical condition. Consult a qualified healthcare professional for personalized advice and care.\n\n**Patient Information**\n---------------------\n\n* Age: 30\n* Gender: Male\n* Duration of symptoms: 3 days\n* Severity score: 6/10\n* Existing clinical conditions: None\n* Other manifestations: Mild headache\n\n**Possible Conditions & Triage Diagnosis**\n-----------------------------------------\n\nBased on the reported symptoms, the following conditions are possible:\n\n* **Common Cold**: A viral infection characterized by fever, cough, and mild headache.\n* **Upper Respiratory Tract Infection (URTI)**: A viral or bacterial infection affecting the nose, throat, and lungs, causing fever, cough, and headache.\n* **Pneumonia**: A bacterial or viral infection affecting the lungs, characterized by fever, cough, and difficulty breathing (not reported in this case).\n\n**Patient Risk Category**\n-------------------------\n\nBased on the severity score and duration of symptoms, the patient's risk category is:\n\n* **Moderate Risk**: The patient's symptoms are not severe, but the duration of 3 days suggests a possible progression of the infection.\n\n**Actionable At-Home Recommendations**\n--------------------------------------\n\n1. **Stay hydrated**: Drink plenty of fluids, such as water, clear broths, or electrolyte-rich beverages, to help loosen mucus and soothe a sore throat.\n2. **Rest**: Get plenty of rest to help the body recover from the infection.\n3. **Use a humidifier**: Add moisture to the air to relieve congestion and cough.\n4. **Over-the-counter medications**: Consider taking over-the-counter medications, such as acetaminophen (Tylenol) or ibuprofen (Advil), to help manage fever and headache.\n5. **Practice good hygiene**: Cover the mouth and nose when coughing or sneezing, and wash hands frequently to prevent the spread of infection.\n\n**Red Flags / Symptoms requiring Emergency Care**\n------------------------------------------------\n\nThe following symptoms require immediate medical attention:\n\n* **Difficulty breathing**: Shortness of breath, wheezing, or coughing up blood.\n* **Severe headache**: A headache that is severe, persistent, or worsens over time.\n* **Fever above 103\u00b0F (39.4\u00b0C)**: A high fever that lasts for more than 3 days.\n* **Chest pain**: A sharp, stabbing, or pressure-like pain in the chest.\n\n**Appropriate Specialization Referral**\n--------------------------------------\n\nBased on the symptoms and possible conditions, a referral to a:\n\n* **Primary Care Physician (PCP)**: A PCP can evaluate the patient's symptoms, provide a diagnosis, and prescribe treatment.\n* **Pulmonologist**: A pulmonologist specializes in lung diseases and can provide further evaluation and treatment if necessary.\n\n**Next Steps**\n--------------\n\nIf the patient's symptoms worsen or do not improve with at-home care, seek medical attention from a qualified healthcare professional.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          }
+        ],
+        "reports": [
+          {
+            "name": "report_jan.pdf",
+            "timestamp": "2026-06-12T12:27:05.912837"
+          }
+        ],
+        "prescriptions": [],
+        "imaging": []
+      }
+    },
+    "praju@gmail.com": {
+      "name": "praju",
+      "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "created_at": "2026-06-14T11:54:42.722330",
+      "reports_data": {
+        "MediMind_Report.pdf": "MediMind AI Report\n**Patient Information**\n1. **Arun Nair**\n- Age: 58\n- Gender: Male\n- Date: 10-06-2026\n2. **Rajesh Kumar**\n- Age: 52\n- Gender: Male\n- Date: 10-06-2026\n3. **Priya Sharma**\n- Age: 24\n- Gender: Female\n- Date: 10-06-2026\n**Diagnoses**\n1. **Arun Nair**\n- Hypertension (BP: 165/102 mmHg)\n- High stress levels\n- Headaches\n- Dizziness\n- Occasional chest discomfort\n2. **Rajesh Kumar**\n- Diabetes (Fasting Blood Sugar: 148 mg/dL, HbA1c: 7.8%)\n- High blood pressure (BP: 148/92 mmHg)\n- Frequent urination\n- Excessive thirst\n- Fatigue\n- Blurred vision\n3. **Priya Sharma**\n- Anemia (Hemoglobin: 8.9 g/dL, RBC Count: 3.5 million/uL, Hematocrit: 29%)\n- Fatigue\n- Weakness\n- Dizziness\n- Pale skin\n- Shortness of breath during physical activity\n**Medications**\nNo information available in the provided reports.\n**Lab Results**\n1. **Arun Nair**\n- Blood Pressure: 165/102 mmHg\n- Heart Rate: 94 bpm\n- BMI: 31.4\n- Total Cholesterol: 245 mg/dL\n- LDL: 165 mg/dL\n- HDL: 34 mg/dL\n2. **Rajesh Kumar**\n- Fasting Blood Sugar: 148 mg/dL\n- HbA1c: 7.8%\n- Total Cholesterol: 228 mg/dL\n- LDL Cholesterol: 145 mg/dL\n- HDL Cholesterol: 38 mg/dL\n- Triglycerides: 220 mg/dL\n- Blood Pressure: 148/92 mmHg\n3. **Priya Sharma**\n- Hemoglobin: 8.9 g/dL\n- RBC Count: 3.5 million/uL\n- Hematocrit: 29%\n- Serum Iron: 35 mcg/dL\n**Abnormal Findings**\n1. **Arun Nair**\n- Elevated blood pressure (165/102 mmHg)\n- High total cholesterol (245 mg/dL)\n- High LDL cholesterol (165 mg/dL)\n- Low HDL cholesterol (34 mg/dL)\n- High BMI (31.4)\n2. **Rajesh Kumar**\n- Elevated fasting blood sugar (148 mg/dL)\n- Elevated HbA1c (7.8%)\n- High total cholesterol (228 mg/dL)\n- High LDL cholesterol (145 mg/dL)\n- High triglycerides (220 mg/dL)\n- Elevated blood pressure (148/92 mmHg)\n3. **Priya Sharma**\n- Low hemoglobin (8.9 g/dL)\n- Low RBC count (3.5 million/uL)\n- Low hematocrit (29%)\n- Low serum iron (35 mcg/dL)\n**Important Observations**\n1. **Arun Nair**\n- Reports headaches, dizziness, occasional chest discomfort, and high stress levels.\n2. **Rajesh Kumar**\n- Reports frequent urination, excessive thirst, fatigue, and blurred vision.\n3. **Priya Sharma**\n- Complains of fatigue, weakness, dizziness, pale skin, and shortness of breath during physical\nactivity.\n**Follow-Up Recommendations**\n1. **Arun Nair**\n- Monitor blood pressure regularly\n- Lifestyle modifications (diet, exercise, stress management)\n- Consider medication to manage hypertension\n2. **Rajesh Kumar**\n- Monitor blood sugar levels regularly\n- Lifestyle modifications (diet, exercise)\n- Consider medication to manage diabetes\n- Regular eye exams to monitor for diabetic retinopathy\n3. **Priya Sharma**\n- Iron supplements to manage anemia\n- Regular blood tests to monitor hemoglobin and RBC count\n- Lifestyle modifications (diet, exercise) to improve iron absorption\n**Executive Summary**\nThree patients have been evaluated for various health conditions:\n1. **Arun Nair** has hypertension, high stress levels, headaches, dizziness, and occasional chest\ndiscomfort. He requires regular blood pressure monitoring and lifestyle modifications.\n2. **Rajesh Kumar** has diabetes, high blood pressure, frequent urination, excessive thirst, fatigue,\nand blurred vision. He requires regular blood sugar monitoring, lifestyle modifications, and\nconsideration for medication to manage diabetes.\n3. **Priya Sharma** has anemia, fatigue, weakness, dizziness, pale skin, and shortness of breath\nduring physical activity. She requires iron supplements, regular blood tests, and lifestyle\nmodifications to improve iron absorption.",
+        "Diabetes_Report.pdf": "Diabetes Report\nPatient Name: Rajesh Kumar\nAge: 52\nGender: Male\nDate: 10-06-2026\nLaboratory Results\nFasting Blood Sugar: 148 mg/dL\nHbA1c: 7.8%\nTotal Cholesterol: 228 mg/dL\nLDL Cholesterol: 145 mg/dL\nHDL Cholesterol: 38 mg/dL\nTriglycerides: 220 mg/dL\nBlood Pressure: 148/92 mmHg\nObservations:\nPatient reports frequent urination, excessive thirst, fatigue, and blurred vision."
+      },
+      "history": {
+        "chats": [
+          {
+            "timestamp": "2026-06-14T12:37:27.878845",
+            "mode": "educational",
+            "user_message": "what is diabetes",
+            "ai_response": "**Diabetes Overview**\n=====================\n\nDiabetes is a group of metabolic disorders characterized by high blood sugar levels. It occurs when the body either cannot produce enough insulin (a hormone produced by the pancreas that regulates blood sugar levels) or cannot effectively use the insulin it produces.\n\n**Types of Diabetes**\n----------------------\n\n### 1. **Type 1 Diabetes**\n\n*   Also known as insulin-dependent diabetes mellitus (IDDM)\n*   An autoimmune disease where the body's immune system attacks and destroys the cells in the pancreas that produce insulin\n*   Typically develops in childhood or adolescence, but can occur at any age\n*   Requires insulin therapy to control blood sugar levels\n\n### 2. **Type 2 Diabetes**\n\n*   Also known as non-insulin-dependent diabetes mellitus (NIDDM)\n*   Accounts for 90% of all diabetes cases\n*   Occurs when the body becomes resistant to insulin, making it harder for glucose to enter cells\n*   Often develops in adulthood, especially after the age of 45\n*   Can be managed through lifestyle changes, such as diet and exercise, and/or medication\n\n### 3. **Gestational Diabetes**\n\n*   Develops during pregnancy, usually in the second or third trimester\n*   Caused by hormonal changes and insulin resistance\n*   Typically resolves after pregnancy, but women who have had gestational diabetes are at higher risk of developing type 2 diabetes later in life\n\n### 4. **Other Types of Diabetes**\n\n*   **LADA (Latent Autoimmune Diabetes in Adults)**: a form of type 1 diabetes that develops in adults\n*   **MODY (Maturity-Onset Diabetes of the Young)**: a rare form of diabetes caused by genetic mutations\n*   **Secondary Diabetes**: caused by other medical conditions or medications, such as steroids or certain medications\n\n**Symptoms of Diabetes**\n-------------------------\n\n*   Increased thirst and hunger\n*   Frequent urination\n*   Fatigue\n*   Blurred vision\n*   Slow healing of cuts and wounds\n*   Tingling or numbness in hands and feet\n\n**Complications of Diabetes**\n-----------------------------\n\n*   **Cardiovascular disease**: increased risk of heart attack, stroke, and high blood pressure\n*   **Nerve damage**: neuropathy, which can cause numbness, tingling, and pain\n*   **Kidney damage**: nephropathy, which can lead to kidney failure\n*   **Eye damage**: retinopathy, which can cause blindness\n*   **Foot damage**: ulcers, infections, and amputation\n\n**Disclaimer**\n--------------\n\nI am not a substitute for professional medical advice. If you suspect you or a loved one has diabetes, consult a healthcare professional for proper diagnosis and treatment.",
+            "image_url": null,
+            "heatmap_url": null,
+            "pdf_url": null
+          }
+        ],
+        "reports": [
+          {
+            "name": "MediMind_Report.pdf",
+            "timestamp": "2026-06-14T11:55:16.712803"
+          },
+          {
+            "name": "Diabetes_Report.pdf",
+            "timestamp": "2026-06-14T12:16:23.205669"
+          },
+          {
+            "name": "Diabetes_Report.pdf",
+            "timestamp": "2026-06-14T12:38:07.369469"
+          }
+        ],
+        "prescriptions": [
+          {
+            "timestamp": "2026-06-14T11:57:20.005260",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded by MediMind AI clinical pharmacist.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Not specified",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Not specified",
+                  "side_effects": "Not specified",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_115716_Screenshot 2026-06-12 090315.png"
+          },
+          {
+            "timestamp": "2026-06-14T11:59:32.786684",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "structured_data": {
+              "narrative": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": null,
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": null,
+                  "side_effects": null,
+                  "alternatives": null,
+                  "schedule": [
+                    {
+                      "time": "08:00 AM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "02:00 PM",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "08:00 PM",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": null,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_115931_Screenshot 2026-06-11 142151.png"
+          },
+          {
+            "timestamp": "2026-06-14T12:24:17.491508",
+            "extracted_text": "Extracted Prescription Text: Amoxicillin 500mg 3 times a day for 5 days",
+            "analysis": "Prescription extracted text decoded.",
+            "structured_data": {
+              "narrative": "Prescription extracted text decoded.",
+              "medicines": [
+                {
+                  "name": "Amoxicillin 500mg",
+                  "purpose": "Not specified",
+                  "dosage": "500mg",
+                  "frequency": "Three times daily",
+                  "duration": "5 days",
+                  "warnings": "Not specified",
+                  "side_effects": "Not specified",
+                  "alternatives": "Mox 500, Novamox 500, Almox 500",
+                  "schedule": [
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    },
+                    {
+                      "time": "Not specified",
+                      "quantity": 1
+                    }
+                  ],
+                  "quantity_needed": 15,
+                  "purchase_options": [
+                    {
+                      "store": "Tata 1mg",
+                      "cost": "\u20b9120",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.1mg.com/search/all?name=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Apollo Pharmacy",
+                      "cost": "\u20b9125",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.apollopharmacy.in/search?q=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "PharmEasy",
+                      "cost": "\u20b9118",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://pharmeasy.in/search?searchTextField=Amoxicillin%20500mg"
+                    },
+                    {
+                      "store": "Netmeds",
+                      "cost": "\u20b9122",
+                      "pack_size": "15 capsules",
+                      "buy_link": "https://www.netmeds.com/catalogsearch/result?q=Amoxicillin%20500mg"
+                    }
+                  ]
+                }
+              ]
+            },
+            "image_url": "/static/output/prescription_20260614_122415_Screenshot 2026-06-11 142151.png"
+          }
+        ],
+        "imaging": [
+          {
+            "timestamp": "2026-06-14T12:00:41.397291",
+            "type": "brain_mri",
+            "confidence": 0.9157966029644012,
+            "analysis": "**Diagnostic Report: Brain MRI Scan**\n=====================================\n\n**Patient Information**\n--------------------\n\n* Patient ID: [Insert Patient ID]\n* Date of Scan: [Insert Date]\n* Scan Type: Brain MRI\n\n**Primary Scan Findings**\n------------------------\n\nBased on the provided Brain MRI scan, the primary findings are:\n\n* **Cerebral Atrophy**: Generalized cerebral atrophy is observed, with a noticeable reduction in brain volume, particularly in the temporal and parietal lobes.\n* **White Matter Hyperintensities (WMH)**: Multiple areas of WMH are visible, primarily in the periventricular and subcortical regions, indicating possible small vessel disease or demyelination.\n* **Cerebellar Atrophy**: Mild cerebellar atrophy is noted, which may be associated with age-related changes or other underlying conditions.\n\n**Specific Observations & Lesion/Anomaly Details**\n------------------------------------------------\n\nUpon closer examination, the following specific observations and lesion/anomaly details are noted:\n\n* **Left Temporal Lobe Lesion**: A well-defined, 1.5 cm x 1.2 cm lesion is observed in the left temporal lobe, which appears to be a **Gliosis** (non-specific reactive change). The lesion is isointense to gray matter on T1-weighted images and hyperintense on T2-weighted images.\n* **Right Frontal Lobe Anomaly**: A small, 0.8 cm x 0.6 cm anomaly is visible in the right frontal lobe, which appears to be a **Microbleed**. The anomaly is hypointense on T2-weighted images and hyperintense on susceptibility-weighted images.\n\n**Confidence Score Details (Reference 91.6%)**\n--------------------------------------------\n\nThe AI feature classification model reports a clinical confidence of 91.6% for the diagnostic findings. This high confidence score indicates that the model is highly accurate in identifying the primary findings and specific observations.\n\n**Severity Level**\n-----------------\n\nBased on the findings, the severity level is classified as **Moderate**. The presence of cerebral atrophy, WMH, and cerebellar atrophy indicates a moderate level of brain pathology. However, the lesions and anomalies observed are not immediately life-threatening, and further evaluation is necessary to determine the underlying cause.\n\n**Clinical Recommendations**\n-------------------------\n\n1. **Follow-up Imaging**: Schedule a follow-up MRI scan in 6-12 months to monitor the progression of cerebral atrophy and WMH.\n2. **Neurological Evaluation**: Refer the patient to a neurologist for a comprehensive evaluation, including a thorough medical history, physical examination, and cognitive assessment.\n3. **Lifestyle Modifications**: Counsel the patient on lifestyle modifications, such as regular exercise, balanced diet, and stress management, to slow the progression of brain pathology.\n\n**Suggested Next Steps / Referrals**\n--------------------------------------\n\n1. **Neurology Consultation**: Refer the patient to a neurologist for further evaluation and management.\n2. **Cognitive Assessment**: Schedule a cognitive assessment to evaluate the patient's cognitive function and identify any potential areas of concern.\n3. **Genetic Testing**: Consider genetic testing to rule out underlying genetic conditions that may contribute to the observed brain pathology.\n\n**Disclaimer**\n--------------\n\nThis diagnostic report is provided for informational purposes only and should not be considered a substitute for professional medical advice. A qualified healthcare professional should interpret the scan findings and provide a definitive diagnosis and treatment plan.",
+            "image_url": "/static/output/scan_20260614_120037_brain cancer.png",
+            "heatmap_url": "/static/output/heatmap_20260614_120037_scan_20260614_120037_brain cancer.png",
+            "pdf_url": "/static/output/imaging_report_20260614_120041.pdf"
+          }
+        ]
+      },
+      "adherence": {
+        "taken": 4,
+        "missed": 1,
+        "logs": [
+          {
+            "timestamp": "2026-06-14T12:00:04.118739",
+            "date": "2026-06-14",
+            "med_name": "Amoxicillin 500mg",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:00:06.152320",
+            "date": "2026-06-14",
+            "med_name": "Amoxicillin 500mg",
+            "time_slot": "02:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:00:10.706341",
+            "date": "2026-06-14",
+            "med_name": "Amoxicillin 500mg",
+            "time_slot": "08:00 PM",
+            "action": "take"
+          },
+          {
+            "timestamp": "2026-06-14T12:00:15.222270",
+            "date": "2026-06-14",
+            "med_name": "Amoxicillin 500mg",
+            "time_slot": "08:00 AM",
+            "action": "miss"
+          },
+          {
+            "timestamp": "2026-06-14T12:00:19.470424",
+            "date": "2026-06-14",
+            "med_name": "Amoxicillin 500mg",
+            "time_slot": "08:00 AM",
+            "action": "take"
+          }
+        ]
+      }
+    }
+  }
+}

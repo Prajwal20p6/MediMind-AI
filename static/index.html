@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediMind AI - Your Intelligent Healthcare Companion</title>
+    <!-- Google Fonts - Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="dark-theme">
+    
+    <!-- =====================================================
+         AUTHENTICATION SCREEN
+         ===================================================== -->
+    <div id="auth-screen" class="auth-container">
+        <div class="auth-glass-card">
+            <div class="auth-header">
+                <div class="brand-logo">
+                    <i data-lucide="activity" class="pulse-logo"></i>
+                    <span>MediMind AI</span>
+                </div>
+                <p class="brand-tagline">Your Intelligent Healthcare Companion</p>
+            </div>
+            
+            <div class="auth-tabs">
+                <button id="tab-login-btn" class="auth-tab-btn active" onclick="switchAuthTab('login')">Sign In</button>
+                <button id="tab-signup-btn" class="auth-tab-btn" onclick="switchAuthTab('signup')">Create Account</button>
+            </div>
+            
+            <!-- Login Form -->
+            <form id="login-form" class="auth-form active" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label for="login-email"><i data-lucide="mail"></i> Email Address</label>
+                    <input type="email" id="login-email" required placeholder="name@domain.com">
+                </div>
+                <div class="form-group">
+                    <label for="login-password"><i data-lucide="lock"></i> Password</label>
+                    <input type="password" id="login-password" required placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+                </div>
+                <button type="submit" class="btn-primary auth-submit-btn">
+                    <span>Sign In</span>
+                    <i data-lucide="arrow-right"></i>
+                </button>
+            </form>
+            
+            <!-- Signup Form -->
+            <form id="signup-form" class="auth-form" onsubmit="handleSignup(event)">
+                <div class="form-group">
+                    <label for="signup-name"><i data-lucide="user"></i> Full Name</label>
+                    <input type="text" id="signup-name" required placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                    <label for="signup-email"><i data-lucide="mail"></i> Email Address</label>
+                    <input type="email" id="signup-email" required placeholder="name@domain.com">
+                </div>
+                <div class="form-group">
+                    <label for="signup-password"><i data-lucide="lock"></i> Password</label>
+                    <input type="password" id="signup-password" required placeholder="Create strong password">
+                </div>
+                <button type="submit" class="btn-primary auth-submit-btn">
+                    <span>Create Account</span>
+                    <i data-lucide="user-plus"></i>
+                </button>
+            </form>
+            
+            <div id="auth-status" class="auth-status-message"></div>
+        </div>
+    </div>
+
+    <!-- =====================================================
+         MAIN DASHBOARD CONTAINER
+         ===================================================== -->
+    <div id="app-container" class="dashboard-container hidden">
+        
+        <!-- SIDEBAR -->
+        <aside id="app-sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <div class="brand-logo mini-hidden">
+                    <i data-lucide="activity" class="pulse-logo"></i>
+                    <span>MediMind AI</span>
+                </div>
+                <button id="sidebar-toggle" class="sidebar-toggle-btn" onclick="toggleSidebar()">
+                    <i data-lucide="chevron-left" id="toggle-icon"></i>
+                </button>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <button class="nav-item active" data-page="home" onclick="navigateTo('home')">
+                    <i data-lucide="home"></i>
+                    <span class="nav-label">Home</span>
+                </button>
+                <button class="nav-item" data-page="chat" onclick="navigateTo('chat')">
+                    <i data-lucide="message-square"></i>
+                    <span class="nav-label">MediMind AI Chat</span>
+                </button>
+                <button class="nav-item" data-page="reports" onclick="navigateTo('reports')">
+                    <i data-lucide="file-text"></i>
+                    <span class="nav-label">Medical Reports</span>
+                </button>
+                <button class="nav-item" data-page="prescription" onclick="navigateTo('prescription')">
+                    <i data-lucide="pill"></i>
+                    <span class="nav-label">Prescription Decoder</span>
+                </button>
+                <button class="nav-item" data-page="imaging" onclick="navigateTo('imaging')">
+                    <i data-lucide="scan"></i>
+                    <span class="nav-label">Medical Imaging</span>
+                </button>
+                <button class="nav-item" data-page="history" onclick="navigateTo('history')">
+                    <i data-lucide="database"></i>
+                    <span class="nav-label">History</span>
+                </button>
+                <button class="nav-item" data-page="profile" onclick="navigateTo('profile')">
+                    <i data-lucide="user-cog"></i>
+                    <span class="nav-label">Profile</span>
+                </button>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-pill mini-hidden">
+                    <div class="user-avatar" id="sidebar-avatar-char">U</div>
+                    <div class="user-info">
+                        <span id="sidebar-username" class="username">Guest</span>
+                        <span class="role">Patient Context</span>
+                    </div>
+                </div>
+                <button class="logout-btn" onclick="handleLogout()" title="Logout">
+                    <i data-lucide="log-out"></i>
+                    <span class="nav-label">Logout</span>
+                </button>
+            </div>
+        </aside>
+        
+        <!-- MAIN CONTENT PANEL -->
+        <main class="main-content">
+            
+            <!-- ==========================================
+                 PAGE: HOME
+                 ========================================== -->
+            <section id="page-home" class="page-section active">
+                <header class="section-header">
+                    <div class="welcome-box">
+                        <span class="greeting-subtitle">DASHBOARD</span>
+                        <h1 id="home-welcome-title">Welcome Back</h1>
+                        <p class="greeting-desc">Access clinical intelligence, reports, and imaging analytics seamlessly.</p>
+                    </div>
+                </header>
+                
+                <!-- Quick Actions Grid -->
+                <div class="dashboard-grid quick-actions">
+                    <div class="dashboard-card action-card active-gradient" onclick="navigateTo('chat')">
+                        <div class="card-icon"><i data-lucide="message-square"></i></div>
+                        <h3>Start MediMind AI Chat</h3>
+                        <p>Ask health questions, discuss symptoms, or decode scans inside our unified assistant.</p>
+                        <span class="action-arrow">Launch Chat <i data-lucide="arrow-right"></i></span>
+                    </div>
+                    <div class="dashboard-card action-card" onclick="navigateTo('reports')">
+                        <div class="card-icon"><i data-lucide="file-text"></i></div>
+                        <h3>Upload Medical Report</h3>
+                        <p>Import and cross-reference lab value trends and generate clinical report summaries.</p>
+                        <span class="action-arrow">Manage Reports <i data-lucide="arrow-right"></i></span>
+                    </div>
+                    <div class="dashboard-card action-card" onclick="navigateTo('prescription')">
+                        <div class="card-icon"><i data-lucide="pill"></i></div>
+                        <h3>Decode Prescription</h3>
+                        <p>Identify medications, review dosages, safety instructions, and check drug warning levels.</p>
+                        <span class="action-arrow">Decode Now <i data-lucide="arrow-right"></i></span>
+                    </div>
+                    <div class="dashboard-card action-card" onclick="navigateTo('imaging')">
+                        <div class="card-icon"><i data-lucide="scan"></i></div>
+                        <h3>Analyze Medical Image</h3>
+                        <p>Submit radiology scans (X-ray, MRI, skin lesions) to compute Grad-CAM attention heatmaps.</p>
+                        <span class="action-arrow">Analyze Image <i data-lucide="arrow-right"></i></span>
+                    </div>
+                </div>
+                
+                <!-- Recent Activity Timeline & Files -->
+                <div class="dashboard-grid content-grid-cols">
+                    
+                    <!-- Left: Recent Activity -->
+                    <div class="dashboard-card block-card">
+                        <div class="card-title-header">
+                            <i data-lucide="clock"></i>
+                            <h3>Recent Activity</h3>
+                        </div>
+                        <div class="timeline" id="home-timeline">
+                            <div class="timeline-empty">No activity records found yet.</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Middle: Recent Reports -->
+                    <div class="dashboard-card block-card">
+                        <div class="card-title-header">
+                            <i data-lucide="file-text"></i>
+                            <h3>Recent Reports</h3>
+                        </div>
+                        <div class="recent-list" id="home-recent-reports">
+                            <div class="recent-list-empty">No reports uploaded.</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right: Recent Scans -->
+                    <div class="dashboard-card block-card">
+                        <div class="card-title-header">
+                            <i data-lucide="scan"></i>
+                            <h3>Recent Scans</h3>
+                        </div>
+                        <div class="recent-list" id="home-recent-scans">
+                            <div class="recent-list-empty">No scans analyzed.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ==========================================
+                 PAGE: CHAT (UNIFIED ASSISTANT)
+                 ========================================== -->
+            <section id="page-chat" class="page-section">
+                <header class="section-header space-between-header">
+                    <div>
+                        <span class="greeting-subtitle">INTELLIGENT HEALTH COMPANION</span>
+                        <h1>🧠 MediMind AI Chat</h1>
+                        <p class="greeting-desc">Automatic Intent Detection: educational, symptom assessment, report analyses, prescription or imaging decoder.</p>
+                    </div>
+                    <div class="header-actions">
+                        <button class="btn-secondary" onclick="clearActiveChat()"><i data-lucide="trash-2"></i> Clear Conversation</button>
+                    </div>
+                </header>
+                
+                <div class="chat-container-box">
+                    <!-- Chat Header with Active Intent Badge -->
+                    <div class="chat-top-status">
+                        <div class="active-badge" id="chat-intent-badge">
+                            <span class="badge-dot pulse"></span>
+                            <span class="badge-label" id="chat-intent-label">🧠 Educational Mode</span>
+                        </div>
+                        <div class="chat-hint">Contextual references: <span id="chat-rag-status" class="status-warning">No clinical reports loaded</span></div>
+                    </div>
+                    
+                    <!-- Messages Thread -->
+                    <div class="chat-thread" id="chat-messages-thread">
+                        <!-- Message Bubble Example -->
+                        <div class="message-bubble system-bubble">
+                            <div class="bubble-avatar"><i data-lucide="activity"></i></div>
+                            <div class="bubble-body">
+                                <p>Hello! I am **MediMind AI**, your unified clinical healthcare companion.</p>
+                                <p>How can I assist you today? You can:
+                                <ul>
+                                    <li>Ask medical details (e.g. <i>"What is diabetes?"</i>)</li>
+                                    <li>Provide clinical symptoms (e.g. <i>"I have a fever since yesterday"</i>)</li>
+                                    <li>Ask to analyze report documents (requires PDF reports uploaded)</li>
+                                    <li>Decode prescriptions or scan imaging by attaching files below.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Image Upload Preview Panel -->
+                    <div class="chat-preview-panel hidden" id="chat-upload-preview-container">
+                        <div class="chat-preview-item">
+                            <img src="" id="chat-upload-img-preview" alt="Preview">
+                            <button class="remove-preview-btn" onclick="clearChatAttachment()"><i data-lucide="x"></i></button>
+                        </div>
+                        <span class="preview-text">Attachment ready. Type a question or action.</span>
+                    </div>
+                    
+                    <!-- Input Box Area -->
+                    <div class="chat-input-wrapper">
+                        <div class="input-actions">
+                            <label for="chat-file-input" class="chat-action-btn" title="Attach image scan">
+                                <i data-lucide="paperclip"></i>
+                            </label>
+                            <input type="file" id="chat-file-input" class="hidden" accept="image/*" onchange="handleChatFileSelect()">
+                        </div>
+                        <textarea id="chat-input-textarea" placeholder="Describe symptoms, ask questions or upload files..." onkeydown="handleChatSubmitOnEnter(event)" oninput="handleChatTyping()"></textarea>
+                        <button class="chat-send-btn btn-primary" id="chat-send-btn" onclick="submitChatPrompt()">
+                            <i data-lucide="send"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ==========================================
+                 PAGE: MEDICAL REPORTS
+                 ========================================== -->
+            <section id="page-reports" class="page-section">
+                <header class="section-header">
+                    <span class="greeting-subtitle">CLINICAL DOCUMENTS</span>
+                    <h1>📄 Medical Reports</h1>
+                    <p class="greeting-desc">Process multi-PDF lab report files to initialize the FAISS vector database for semantic RAG queries.</p>
+                </header>
+                
+                <div class="dashboard-grid split-grid-50">
+                    <!-- Left: Upload & Documents List -->
+                    <div class="dashboard-card flex-col-card">
+                        <div class="card-title-header">
+                            <i data-lucide="upload-cloud"></i>
+                            <h3>Upload Report PDFs</h3>
+                        </div>
+                        
+                        <div class="drop-zone" id="report-drop-zone" ondragover="event.preventDefault()" ondrop="handleReportDrop(event)">
+                            <i data-lucide="file-up" class="drop-icon"></i>
+                            <p class="drop-text-primary">Drag and drop your PDF report files here</p>
+                            <p class="drop-text-secondary">or click to browse local files (Upload up to 3 reports to analyze and compare simultaneously)</p>
+                            <input type="file" id="report-file-input" class="hidden" multiple accept=".pdf" onchange="handleReportFileSelect()">
+                        </div>
+                        
+                        <div class="uploaded-files-list-container">
+                            <h4>Processed Documents</h4>
+                            <div class="uploaded-files-list" id="report-files-list">
+                                <div class="list-empty">No PDF documents processed yet.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right: Summary Analysis & RAG Q&A -->
+                    <div class="dashboard-card flex-col-card justify-start">
+                        <div class="card-title-header space-between-header">
+                            <div class="flex-row-header">
+                                <i data-lucide="stethoscope"></i>
+                                <h3>Document Intelligence</h3>
+                            </div>
+                            <div class="header-buttons">
+                                <button class="btn-primary" id="report-analyze-btn" onclick="runReportAnalysis()"><i data-lucide="sparkles"></i> Analyze Lab Values</button>
+                                <a id="report-download-pdf-btn" class="btn-secondary hidden" href="" download><i data-lucide="download"></i> Export PDF</a>
+                            </div>
+                        </div>
+                        
+                        <div class="reports-tabs">
+                            <button id="report-tab-summary" class="report-tab-btn active" onclick="switchReportTab('summary')">Summary Findings</button>
+                            <button id="report-tab-rag" class="report-tab-btn" onclick="switchReportTab('rag')">Query Reports (RAG)</button>
+                            <button id="report-tab-twin" class="report-tab-btn" onclick="switchReportTab('twin')">Health Twin</button>
+                            <button id="report-tab-comparison" class="report-tab-btn" onclick="switchReportTab('comparison')">Comparison</button>
+                            <button id="report-tab-forecasting" class="report-tab-btn" onclick="switchReportTab('forecasting')">Forecasting</button>
+                            <button id="report-tab-coach" class="report-tab-btn" onclick="switchReportTab('coach')">Disease Coach</button>
+                            <button id="report-tab-explorer" class="report-tab-btn" onclick="switchReportTab('explorer')">Disease Explorer</button>
+                        </div>
+                        
+                        <!-- Report Summary Tab Pane -->
+                        <div id="report-panel-summary" class="report-panel active">
+                            <div class="summary-results-placeholder" id="report-summary-output">
+                                <div class="empty-state-message">
+                                    <i data-lucide="text-quote"></i>
+                                    <p>Upload files and click "Analyze Lab Values" to generate diagnoses summaries, lab metrics, and referrals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Report RAG Tab Pane -->
+                        <div id="report-panel-rag" class="report-panel">
+                            <div class="rag-chat-container">
+                                <div class="rag-history" id="report-rag-chat-thread">
+                                    <div class="rag-system-msg">Semantic database initialized. Enter questions targeting your reports. (e.g. <i>"What was my glucose value?"</i>)</div>
+                                </div>
+                                <div class="rag-input-row">
+                                    <input type="text" id="report-rag-input" placeholder="Ask questions from uploaded documents..." onkeydown="handleRAGSubmitOnEnter(event)">
+                                    <button class="btn-primary" onclick="submitRAGQuery()"><i data-lucide="arrow-up-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Report Twin Tab Pane -->
+                        <div id="report-panel-twin" class="report-panel">
+                            <div class="twin-container" id="report-twin-output">
+                                <div class="empty-state-message">
+                                    <i data-lucide="activity"></i>
+                                    <p>Upload reports and select this tab to view your Personal Health Twin and Biomarkers tracker.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Report Comparison Tab Pane -->
+                        <div id="report-panel-comparison" class="report-panel">
+                            <div class="comparison-container" id="report-comparison-output">
+                                <div class="empty-state-message">
+                                    <i data-lucide="bar-chart-2"></i>
+                                    <p>Upload multiple reports to analyze longitudinal trends and condition changes.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Report Forecasting Tab Pane -->
+                        <div id="report-panel-forecasting" class="report-panel">
+                            <div class="forecasting-container" id="report-forecasting-output">
+                                <div class="empty-state-message">
+                                    <i data-lucide="trending-up"></i>
+                                    <p>Explore projected risk models and biomarker trajectory forecasting.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Report Coach Tab Pane -->
+                        <div id="report-panel-coach" class="report-panel">
+                            <div class="coach-container" id="report-coach-output">
+                                <div class="empty-state-message">
+                                    <i data-lucide="heart"></i>
+                                    <p>Unlock personalized daily walking plans, yoga, exercise regimens, and monitoring schedules.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Report Explorer Tab Pane -->
+                        <div id="report-panel-explorer" class="report-panel">
+                            <div class="explorer-search-row" style="display: flex; gap: 10px; margin-bottom: 15px;">
+                                <input type="text" id="explorer-query" placeholder="Search a disease (e.g. Diabetes, Asthma)..." style="flex: 1; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.2); color: #fff;">
+                                <button class="btn-primary" onclick="searchDiseaseExplorer()"><i data-lucide="search"></i> Explore</button>
+                            </div>
+                            <div class="explorer-container" id="report-explorer-output">
+                                <div class="empty-state-message">
+                                    <i data-lucide="globe"></i>
+                                    <p>Search a condition to view overview, Discovery History milestones, symptoms, and current treatments.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ==========================================
+                 PAGE: PRESCRIPTION DECODER
+                 ========================================== -->
+            <section id="page-prescription" class="page-section">
+                <header class="section-header">
+                    <span class="greeting-subtitle">PHARMACY ASSISTANT</span>
+                    <h1>💊 Prescription Decoder</h1>
+                    <p class="greeting-desc">Process medicine prescriptions via EasyOCR. Translates dosage, frequency timings, and clinical alerts.</p>
+                </header>
+                
+                <div class="dashboard-grid split-grid-50">
+                    <!-- Left: Upload Prescription Image -->
+                    <div class="dashboard-card flex-col-card">
+                        <div class="card-title-header">
+                            <i data-lucide="camera"></i>
+                            <h3>Upload Prescription Image</h3>
+                        </div>
+                        
+                        <div class="drop-zone" id="presc-drop-zone" ondragover="event.preventDefault()" ondrop="handlePrescDrop(event)">
+                            <i data-lucide="image" class="drop-icon"></i>
+                            <p class="drop-text-primary">Drag and drop prescription image here</p>
+                            <p class="drop-text-secondary">or click to browse (PNG, JPG, JPEG)</p>
+                            <input type="file" id="presc-file-input" class="hidden" accept="image/*" onchange="handlePrescFileSelect()">
+                        </div>
+                        
+                        <div class="preview-box hidden" id="presc-preview-container">
+                            <h4>Selected Image Preview</h4>
+                            <div class="preview-img-wrapper">
+                                <img src="" id="presc-img-preview" alt="Prescription Preview">
+                            </div>
+                            <button class="btn-primary w-full-btn" id="presc-decode-btn" onclick="runPrescriptionDecode()"><i data-lucide="cpu"></i> Run Prescription OCR Analysis</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Right: Decoded Result Pane -->
+                    <div class="dashboard-card flex-col-card justify-start">
+                        <div class="card-title-header">
+                            <i data-lucide="receipt"></i>
+                            <h3>Decoded Information Output</h3>
+                        </div>
+                        
+                        <div class="presc-tabs-wrapper hidden" id="presc-tabs-container" style="margin-bottom: 15px; width: 100%;">
+                            <div class="reports-tabs">
+                                <button id="presc-tab-detail" class="report-tab-btn active" onclick="switchPrescTab('detail')">Info</button>
+                                <button id="presc-tab-schedule" class="report-tab-btn" onclick="switchPrescTab('schedule')">Scheduler</button>
+                                <button id="presc-tab-purchase" class="report-tab-btn" onclick="switchPrescTab('purchase')">Buy</button>
+                                <button id="presc-tab-adherence" class="report-tab-btn" onclick="switchPrescTab('adherence')">Tracker</button>
+                            </div>
+                        </div>
+                        
+                        <div class="presc-output-box" id="presc-output-container" style="width: 100%;">
+                            <div class="empty-state-message">
+                                <i data-lucide="clipboard-list"></i>
+                                <p>Upload a clear prescription scan image on the left and start decoding extraction.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ==========================================
+                 PAGE: MEDICAL IMAGING
+                 ========================================== -->
+            <section id="page-imaging" class="page-section">
+                <header class="section-header">
+                    <span class="greeting-subtitle">RADIOLOGY & DERMATOLOGY ANALYTICS</span>
+                    <h1>🧠 Medical Imaging</h1>
+                    <p class="greeting-desc">Identify anomalies in Chest X-Ray, Brain MRI, or Skin Disease. Visualizes Grad-CAM feature attention heatmaps.</p>
+                </header>
+                
+                <div class="dashboard-grid split-grid-50">
+                    <!-- Left: Upload Scan -->
+                    <div class="dashboard-card flex-col-card">
+                        <div class="card-title-header">
+                            <i data-lucide="image-play"></i>
+                            <h3>Upload Diagnostic Scan</h3>
+                        </div>
+                        
+                        <div class="drop-zone" id="imaging-drop-zone" ondragover="event.preventDefault()" ondrop="handleImagingDrop(event)">
+                            <i data-lucide="file-image" class="drop-icon"></i>
+                            <p class="drop-text-primary">Drag and drop radiology image here</p>
+                            <p class="drop-text-secondary">or click to browse local files (PNG, JPG)</p>
+                            <input type="file" id="imaging-file-input" class="hidden" accept="image/*" onchange="handleImagingFileSelect()">
+                        </div>
+                        
+                        <div class="preview-box hidden" id="imaging-preview-container">
+                            <h4>Selected Image Preview</h4>
+                            <div class="preview-img-wrapper">
+                                <img src="" id="imaging-img-preview" alt="Scan Preview">
+                            </div>
+                            <button class="btn-primary w-full-btn" id="imaging-analyze-btn" onclick="runImagingAnalysis()"><i data-lucide="activity"></i> Run Neural Classification Scan</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Right: Attention Heatmap and Findings Report -->
+                    <div class="dashboard-card flex-col-card justify-start">
+                        <div class="card-title-header space-between-header">
+                            <div class="flex-row-header">
+                                <i data-lucide="microscope"></i>
+                                <h3>Diagnostic Scan Analysis</h3>
+                            </div>
+                            <a id="imaging-download-pdf-btn" class="btn-secondary hidden" href="" download><i data-lucide="download"></i> Download Report PDF</a>
+                        </div>
+                        
+                        <div class="imaging-results-container hidden" id="imaging-results-wrapper">
+                            
+                            <!-- Classification Confidence and Severity Row -->
+                            <div class="imaging-status-row">
+                                <div class="status-meter-col">
+                                    <span class="meter-label">AI Model Confidence:</span>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar-fill" id="imaging-confidence-fill" style="width: 0%"></div>
+                                    </div>
+                                    <span class="meter-val" id="imaging-confidence-val">0.0%</span>
+                                </div>
+                                <div class="severity-badge-col">
+                                    <span class="meter-label">Severity Level:</span>
+                                    <span class="badge" id="imaging-severity-badge">Normal</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Heatmap Image comparison -->
+                            <div class="heatmap-comparison">
+                                <div class="heatmap-box">
+                                    <span>Original Input</span>
+                                    <img src="" id="imaging-result-orig-img" alt="Original Scan">
+                                </div>
+                                <div class="heatmap-box">
+                                    <span>Grad-CAM Attention Area</span>
+                                    <img src="" id="imaging-result-heatmap-img" alt="Heatmap Output">
+                                </div>
+                            </div>
+                            
+                            <!-- Clinical Narrative report -->
+                            <div class="clinical-narrative-container">
+                                <h4>Clinical Narrative Findings</h4>
+                                <div class="narrative-text" id="imaging-narrative-output"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="empty-state-message" id="imaging-empty-state">
+                            <i data-lucide="search-code"></i>
+                            <p>Upload a diagnostic image scan and trigger the Neural Classification Scan to overlay Grad-CAM attention regions.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ==========================================
+                 PAGE: HISTORY
+                 ========================================== -->
+            <section id="page-history" class="page-section">
+                <header class="section-header">
+                    <span class="greeting-subtitle">PATIENT RECORD TIMELINE</span>
+                    <h1>📚 History</h1>
+                    <p class="greeting-desc">Review previous consultations, medical summary files, prescription structures, and scans.</p>
+                </header>
+                
+                <div class="history-filter-row">
+                    <div class="filter-col">
+                        <label for="history-category-select">Category: </label>
+                        <select id="history-category-select" class="dropdown-select" onchange="loadUserHistory()">
+                            <option value="all">All Category</option>
+                            <option value="chats">Chats History</option>
+                            <option value="reports">Medical Reports</option>
+                            <option value="prescriptions">Prescriptions Decodes</option>
+                            <option value="imaging">Medical Imaging Scans</option>
+                        </select>
+                    </div>
+                    
+                    <div class="search-col">
+                        <i data-lucide="search"></i>
+                        <input type="text" id="history-search-input" placeholder="Search record terms..." oninput="loadUserHistory()">
+                    </div>
+                </div>
+                
+                <!-- History timeline results container -->
+                <div class="history-list-grid" id="history-items-container">
+                    <div class="list-empty">No history logs created yet.</div>
+                </div>
+            </section>
+            
+            <!-- ==========================================
+                 PAGE: PROFILE
+                 ========================================== -->
+            <section id="page-profile" class="page-section">
+                <header class="section-header">
+                    <span class="greeting-subtitle">PATIENT CONTEXT METRICS</span>
+                    <h1>👤 Profile</h1>
+                    <p class="greeting-desc">Configure client demographic contexts and inspect operational usage metrics.</p>
+                </header>
+                
+                <div class="dashboard-grid split-grid-30-70">
+                    <!-- Profile Card -->
+                    <div class="dashboard-card profile-details-card">
+                        <div class="profile-header-avatar" id="profile-avatar-large">U</div>
+                        <h2 id="profile-card-name">User Name</h2>
+                        <span id="profile-card-email" class="profile-email-badge">user@domain.com</span>
+                        
+                        <hr class="card-divider">
+                        
+                        <div class="profile-metadata-row">
+                            <span class="meta-title">Client Type</span>
+                            <span class="meta-value">Standard User Context</span>
+                        </div>
+                        <div class="profile-metadata-row">
+                            <span class="meta-title">Registration Date</span>
+                            <span id="profile-card-date" class="meta-value">Unknown</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Statistics Grid -->
+                    <div class="dashboard-card flex-col-card justify-start">
+                        <div class="card-title-header">
+                            <i data-lucide="bar-chart-3"></i>
+                            <h3>Operational Statistics</h3>
+                        </div>
+                        
+                        <div class="stats-counter-grid">
+                            <div class="stat-counter-card">
+                                <div class="stat-icon"><i data-lucide="message-square"></i></div>
+                                <div class="stat-number" id="stat-count-chats">0</div>
+                                <div class="stat-label">Chat Inquiries</div>
+                            </div>
+                            <div class="stat-counter-card">
+                                <div class="stat-icon"><i data-lucide="file-text"></i></div>
+                                <div class="stat-number" id="stat-count-reports">0</div>
+                                <div class="stat-label">Reports Processed</div>
+                            </div>
+                            <div class="stat-counter-card">
+                                <div class="stat-icon"><i data-lucide="pill"></i></div>
+                                <div class="stat-number" id="stat-count-prescriptions">0</div>
+                                <div class="stat-label">Prescriptions Decoded</div>
+                            </div>
+                            <div class="stat-counter-card">
+                                <div class="stat-icon"><i data-lucide="scan"></i></div>
+                                <div class="stat-number" id="stat-count-imaging">0</div>
+                                <div class="stat-label">Imaging Scans Analyzed</div>
+                            </div>
+                        </div>
+                        
+                        <div class="disclaimer-info-card">
+                            <i data-lucide="alert-triangle"></i>
+                            <div class="disclaimer-body">
+                                <h4>Important Healthcare AI Disclaimer</h4>
+                                <p>This application platform uses advanced generative neural networks and feature classification methods. All findings, recommendations, dosage schedules, or clinical triage predictions rendered by the AI companion should be reviewed by an authorized board-certified physician or doctor. Do not delay professional medical consultation based on outputs produced by this interface.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- =====================================================
+         LOADING OVERLAY PANEL
+         ===================================================== -->
+    <div id="loading-overlay" class="loading-overlay hidden">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p id="loading-overlay-message">Loading intelligence modules...</p>
+            <div id="loading-progress-container" class="loading-progress-container hidden">
+                <div class="loading-progress-bar">
+                    <div id="loading-progress-fill" class="loading-progress-fill" style="width: 0%"></div>
+                </div>
+                <span id="loading-progress-text" class="loading-progress-text">Step 0/0</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- TOAST NOTIFICATIONS -->
+    <div id="toast-container" class="toast-container"></div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
